@@ -1,0 +1,66 @@
+
+
+.top_contacts .contact_text {
+    width: auto;
+    text-align: left;
+}
+.contact_View .contact_text {
+    width: auto !important;
+}
+
+/*.top_contacts .contact_infos > div {
+    font-size: 16px;
+    font-family: 'BPGNinoMtavruli';
+    letter-spacing: 0.5px;
+    color: #888;
+}*/
+
+.top_contacts .contact_infos > div a {
+    -webkit-transition: 0.25s ease-in-out;
+    transition: 0.25s ease-in-out;
+
+}
+/*.top_contacts .contact_infos > div a:hover {
+    color: #e65540;
+}*/
+
+.top_contacts .contact_infos {
+    margin-bottom: 40px;
+}
+
+#contact_name, #contact_email, #contact_subject, .captchainput, #contact_telephone, #contact_text {
+    width: 100%;
+    height: 48px;
+    margin-bottom: 15px;
+    border-color: #e6e6e6;
+    padding: 10px 18px;
+    font-size: 16px;
+}
+
+#contact_text {
+    height: auto;
+    resize: vertical;
+}
+
+/*shop 10 contact header/footer*/
+
+.header_top .contact-cont {
+    margin-top: 1.7em;
+}
+.header_top .contact-cont .module_block {
+    margin-bottom: 0px;
+}
+
+.header_top  .contact_infos > div {
+    color: #483b33;
+ 
+}
+.header_top  .contact_infos > div span {
+    border-radius: 2em;
+    background-color: #69af07;
+}
+
+
+.contact_View #footer {
+    margin-top: 60px;
+}

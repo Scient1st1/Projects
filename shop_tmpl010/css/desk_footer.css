@@ -1,0 +1,105 @@
+
+
+
+#footer a {
+    font-weight: normal;
+}
+
+
+
+
+.developed {
+    float: right;
+}
+
+.developed a {
+    font-family: 'BPGBannerCapsRegular';
+    -webkit-transition: all .25s ease-in-out;
+    -o-transition: all .25s ease-in-out;
+    transition: all .25s ease-in-out;
+}
+
+
+
+.copyright {
+    float:left;
+    display: block;
+    line-height: 1.5;
+}
+
+.map_button {
+    margin-top: 167px;
+    margin-right: 40px;
+    display: inline-block;
+    float: right;
+}
+
+
+
+
+.footer_top {
+   padding: 50px 0 15px 0;
+}
+
+
+
+.footer_top .mod_forms_footer {
+    padding-right: 40px;
+}
+
+.footer_top .module_title {
+    text-align: left;
+    padding-bottom: 0px;
+}
+
+.footer_top .module_title h2 {
+    color: #000;
+    text-align: left;
+    font-size: 15px;
+    line-height: 1.5;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+
+.footer_top .contact_infos > div {
+    font-size: 13px;
+    color: #555555;
+    line-height: 1.8;
+}
+
+
+
+
+.footer_top  .site_social a {
+    font-size: 18px;
+    color: #888;
+    -webkit-transition: 0.25s ease-in-out;
+    transition: 0.25s ease-in-out;
+    margin: 0px 6px;
+}
+
+.footer_top  .site_social {
+    margin-left: -12px;
+}
+
+.footer_top  .site_social a:hover {
+    color: #e65540 !important;
+}
+
+
+.footer_bot {
+    padding: 20px 0;
+    border-top: 1px solid rgba(0,0,0, .1);
+}
+
+/*footer-contact*/
+.mod_contact_footer .contact_infos > div{
+  color: #483b33;  
+}
+.mod_contact_footer .contact_infos > div span {
+    border-radius: 50%;
+    background-color: #69af07;
+}
+
+

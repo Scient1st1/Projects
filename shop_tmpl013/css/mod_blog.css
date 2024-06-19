@@ -1,0 +1,102 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/*
+    Created on : Nov 7, 2018, 1:55:59 PM
+    Author     : Berdia
+*/
+
+.blog-holder {
+    margin-bottom: 30px;
+}
+
+
+.blog_item {
+    display: inline-block;
+    display: inline-block;
+    width: 50%;
+    float: left;
+    padding: 0 10px;
+    position: relative;
+}
+.blog_item_t {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 15px 30px;
+    text-transform: capitalize;
+    font-weight: 300;
+    color: #fff;
+    line-height: 1.6;
+    font-size: 14px;
+}
+.blog_item_bt {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 40px 30px;
+    text-transform: capitalize;
+    font-weight: 300;
+    color: #fff;
+    line-height: 1.6;
+    font-size: 14px;
+}
+.blog_item_bt a {
+    color: #fff;
+}
+.blog_item_bt a:hover {
+    color: #69af07;
+}
+
+.blog_item_image img {
+    max-width: 100%;
+}
+
+/*
+.mod_blog .blog_item_bt a {
+    display: inline-block;
+    font-size: 18px;
+    color: #333333;
+    line-height: 1.5;
+    font-family: 'BPGNinoMtavruli';
+    margin-bottom: 10px;
+    -webkit-transition: 0.25s ease-in-out;
+    transition: 0.25s ease-in-out;
+}
+.mod_blog .blog_item_bt a:hover {
+    color: #e65540;
+}*/
+/*
+
+
+/*carousel*/
+.owl-theme .owl-dots {
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    width: 30px;
+    height: auto;
+    text-align: center;
+}
+
+.blog_modul_in.owl-carousel .owl-dot{
+    border: 2px solid #9f9f9f;
+    border-radius: 50%;
+    width: 9px;
+    height: 9px;
+    margin: 8px 10px;
+
+}
+.blog_modul_in.owl-carousel .owl-dot.active {
+    background: #ff084e;
+    border-color: #ff084e;
+}
+
+.owl-theme .owl-dots .owl-dot span {
+    display: none!important;
+}

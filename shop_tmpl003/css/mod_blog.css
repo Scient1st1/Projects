@@ -1,0 +1,52 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/*
+    Created on : Nov 7, 2018, 1:55:59 PM
+    Author     : Berdia
+*/
+.mod_blog {
+    margin-bottom: 70px;
+}
+.mod_blog .blog_item_image img {
+    width: 100%;
+    -webkit-transition: 0.5s ease-out;
+    transition: 0.5s ease-out;
+}
+
+.mod_blog .blog_item_image {
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.mod_blog .blog_item_image:hover img {
+    -webkit-transform:scale(1.1);
+    -moz-transform:scale(1.1);
+    -ms-transform:scale(1.1);
+    -o-transform:scale(1.1);
+    transform:scale(1.1);
+
+}
+
+.mod_blog .blog_item_bt a {
+    display: inline-block;
+    font-size: 18px;
+    color: #333333;
+    line-height: 1.5;
+    font-family: 'BPGNinoMtavruli';
+    margin-bottom: 10px;
+    -webkit-transition: 0.25s ease-in-out;
+    transition: 0.25s ease-in-out;
+}
+.mod_blog .blog_item_bt a:hover {
+    color: #e65540;
+}
+
+.mod_blog .blog_item_t, .mod_blog .blog_item_at {
+    font-size: 14px;
+    color: #888888;
+    line-height: 1.8;
+    margin-bottom: 15px;
+}

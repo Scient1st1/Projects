@@ -1,0 +1,52 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 25, 2019, 3:10:38 PM
+    Author     : Levani
+*/
+
+/*lang-css*/
+.lang_switcher_block {
+    position: absolute;
+    right: 0px;
+    /*was -42*/
+    top: 23px; 
+}
+
+.lang_switcher_block a  {
+    overflow: hidden;
+    -webkit-transition: 0.25s ease-in-out;
+    transition: 0.25s ease-in-out;
+    width: auto;
+    display: inline-table;
+    text-align: center;
+    color: #fff;
+}
+
+
+.lang_switcher_block a.activelang  {
+    height: 24px;
+    margin: 0;
+}
+
+
+
+
+.lang_switcher_block a img, .lang_switcher_block a span {
+    margin: 0;
+}
+
+.lang_switcher_block a span{
+    font-size: 12px;
+    display: block;
+    /*    line-height: 16px;*/
+}
+
+
+
+
+
+/*lang-css-end*/

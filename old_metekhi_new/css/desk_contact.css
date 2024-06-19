@@ -1,0 +1,286 @@
+.glyphicon-phone::before {
+    content:"\e145";
+}
+
+.contact_info_icon .contact_fax span:before {
+    content: "\e045";
+}
+
+.contact_info_icon .contact_webpage span:before {
+    content: "\e135";
+}
+
+.contact_info_icon .contact_moreinfo span:before {
+    content: "";
+}
+
+
+.mod_contact_footer .google_map {
+    width: 50%;
+    float: right;
+    position: relative;
+}
+
+.mod_contact_footer .google_map:before {
+    content: "";
+    width: 1px;
+    background-color: #000;
+    height: 155px;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    display: block;
+}
+.mod_contact_footer .google_map:after {
+    content: "";
+    width: 1px;
+    background-color: #000;
+    height: 155px;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    display: block;
+}
+
+.mod_contact_footer #map-canvas {
+    width: 62% !important;
+    margin: auto;
+
+}
+
+.mod_contact_footer .contact_infos {
+    float: left;
+    width: 50%;
+    margin-top: 30px;
+
+}
+
+.mod_contact_footer .contact_infos > div {
+    color: #474646;
+    font-size: 16px;
+    margin-bottom: 12px;
+    display: flex;
+    align-items: center;
+}
+.mod_contact_footer .contact_infos > div a {
+    color: #474646;
+    font-size: 16px;
+    -webkit-transition: 0.25s ease-in-out;
+    transition: 0.25s ease-in-out;
+
+}
+
+.mod_contact_footer .contact_infos > div a:hover {
+    color: #d8b471;
+    text-decoration: underline;
+}
+
+.mod_contact_footer .contact_infos > div span {
+    color: #474646;
+    font-size: 30px;
+}
+
+.mod_contact_footer .contact_info_icon .contact_address span {
+    background:  url('==TEMPLATE==/images/map_marker.png') no-repeat center;
+    height: 40px;
+    width: 40px;
+
+}
+
+.mod_contact_footer .contact_info_icon .contact_telephone span {
+    background:  url('==TEMPLATE==/images/phone_icon.png') no-repeat center;
+    height: 40px;
+    width: 40px;
+}
+
+
+.mod_contact_footer .contact_info_icon .contact_email_to span {
+    background:  url('==TEMPLATE==/images/mail_icon.png') no-repeat center;
+    height: 40px;
+    width: 40px;
+}
+
+
+/* Contact Page */
+
+.contacts_page {
+    background-color: #1d1d1d;
+    padding: 40px 0px;
+
+}
+
+#contact_name, #contact_email, #contact_subject, .captchainput, #contact_telephone, #contact_text {
+    width: 90%;
+    height: 45px;
+    font-size: 16px;
+    padding: 10px 15px;
+    border: 1px solid;
+    transition: 0.3s;
+    font-family: 'BPGArial2010';
+    background: transparent;
+}
+#contact_text{
+    height: auto;
+}
+#contact_name:focus, #contact_email:focus, #contact_subject:focus,
+.captchainput:focus, #contact_telephone:focus, #contact_text:focus {
+    background: transparent;
+    border: 1px solid #d8b471;
+    color: #d8b471;
+}
+
+.contacts_page .contact_form_row {
+    font-size: 18px;
+    font-weight: normal !important;
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+    font-family: 'BPGArial2010';
+}
+.contacts_page .contact_form_row label {
+    color: #797979;
+    font-size: 18px;
+    font-weight: normal !important;
+    text-align: right;
+    padding-right: 10px;
+    width: 125px;
+    display: table;
+}
+
+.contacts_page .top_contacts {
+    margin-top: 25px;
+}
+
+.contacts_page #regcaptcha {
+    height: 45px;
+    font-size: 16px;
+}
+
+.contacts_page .item_form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0px;
+}
+
+.contacts_page #captcha {
+    margin-right: 10px;
+    font-size: 18px;
+    color: #797979;
+    font-weight: normal;
+}
+
+.contacts_page .item_box_button {
+    width: 100%;
+    text-align: center;
+}
+
+.contacts_page .item_box_button button {
+    font-size: 16px;
+    color: #333;
+    background-color: #e0ca8f;  
+    padding: 12px 22px;
+    font-family: 'BPGArialCaps2010';
+    border: 1px solid transparent;
+    -webkit-transition: 0.25s ease-in-out;
+    transition: 0.25s ease-in-out;
+}
+.contacts_page .item_box_button button:hover {
+    border: 1px solid #d8b471;
+    background-color: transparent;
+    color: #d8b471;
+}
+
+
+.contacts_page .contact_moreinformation {
+    margin-left: 16px;
+}
+
+.top_contacts .contact_infos {
+    display: flex;
+    justify-content: space-around;
+    margin: 30px 0px 50px;
+}
+
+.top_contacts .contact_infos > div {
+    display: inline-block;
+}
+.contacts_page .contact_infos > div, .contacts_page .contact_infos > div a {
+    font-size: 18px;
+    color: #797979;
+    font-family: 'BPGArial2010';
+    transition: 0.3s;
+    margin-bottom: 15px;
+}
+
+.contacts_page .contact_infos > div a:hover {
+    color: #d8b471;
+}
+
+.contact_infos  span {
+    font-size: 22px;
+    vertical-align: middle;
+    color: #ccc;
+    margin: 0px 5px;
+}
+
+.contacts_page .contact_text {
+    width: 120px;
+}
+
+
+.contacts_page {
+    position: relative;
+    z-index: 6;
+}
+/*.contacts_page:after {
+    content: "";
+    width: 100%;
+    height: 60px;
+    bottom: -35px;
+    left: 0;
+    z-index: -1;
+    background-repeat: repeat-x;
+    position: absolute;
+    background-position: center;
+    background-image: url('/templates/old_metekhi/images/header_bg.png');
+    -webkit-transform: rotateX(180deg);
+    -moz-transform: rotateX(180deg);
+    -ms-transform: rotateX(180deg);
+    -o-transform: rotateX(180deg);
+    transform: rotateX(180deg);
+}*/
+
+.contacts_page #emailForm {
+    margin-bottom: 120px;
+    max-width: 60%;
+    margin: 0px auto 80px;
+}
+
+.contacts_page .item_box {
+    width: auto;
+}
+
+.contacts_page .contact_text {
+    display: none;
+}
+
+.contact_infos > div {
+    margin: 0;
+    display: inline-block;
+}
+.contact_infos > div:hover {
+   color: #e0ca8f;
+   cursor: pointer;
+}
+.contact_infos .contact_moreinfo:hover{
+    color: #797979;
+    cursor: default;
+}
+
+
+
+
+

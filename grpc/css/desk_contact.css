@@ -1,0 +1,137 @@
+
+.contact_info_icon .contact_mobile span:before {
+    content: "\e145";
+}
+
+.contact_info_icon .contact_fax span:before {
+    content: "\e045";
+}
+
+.contact_info_icon .contact_webpage span:before {
+    content: "\e135";
+}
+
+.contact_info_icon .contact_moreinfo span:before {
+    content: "\e086";
+}
+
+
+
+
+/*.top_contacts .contact_infos > div a:hover {
+    color: #e65540;
+}*/
+
+
+
+#emailForm .contact_form_row label{
+    display: none;
+}
+
+
+
+/*contact page*/
+
+.contact .page_title {
+    font-size: 20px;
+    font-family: mon-r;
+    color: #3891bb;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 50px;
+    padding: 0 15px;
+    letter-spacing: 1px;
+}
+
+
+#contact_name, #contact_email, #contact_subject, .captchainput, #contact_telephone {
+    width: 100%;
+    height: 50px;
+    margin-bottom: 20px;
+    padding: 10px 15px;
+    border: 1px solid #4497be;
+    font-size: 16px;
+    font-family: mon-r;
+    line-height: 24px;
+}
+
+#contact_text {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 20px;
+    padding: 10px 15px;
+    border: 1px solid #4497be;
+    font-size: 16px;
+    font-family: mon-r;
+    line-height: 24px;
+    cursor: auto;
+}
+
+
+
+.contact .contact_infos_in {
+    padding: 30px 0 30px 30px;
+    background: #ffffff;
+    margin-left: 60px;
+    margin-right: -60px;
+   
+
+}
+
+.contact .contact_infos_in > div {
+    font-size: 16px;
+    font-family: mon-r;
+    line-height: 24px;
+    color: #000000;
+    margin-bottom: 30px;
+} 
+
+.contact .contact_infos_in .contact_email_to a {
+    font-size: 16px;
+    font-family: mon-r;
+    line-height: 24px;
+    color: #000000;
+}
+
+
+.contact .contact_form_row > input::placeholder{
+    font-family:mon-l;
+    font-size: 14px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.contact .contact_form_row > textarea::placeholder {
+    font-family:mon-l;
+    font-size: 14px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #000000;
+    resize: none!important;
+}
+
+
+.contact .contact_infos .contact_text {
+    width: 30px;
+    height: 30px;
+    margin-right: 15px;
+    background-size: 15px;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 50%;
+    border: 1px solid #86bcd6;
+}
+
+.contact .contact_infos .contact_address .contact_text {
+    background-image: url('==TEMPLATE==/images/location.png');
+}
+
+.contact .contact_infos .contact_telephone .contact_text{
+    background-image: url('==TEMPLATE==/images/tel.png');
+}
+
+.contact .contact_infos .contact_email_to .contact_text {
+    background-image: url('==TEMPLATE==/images/email.png');
+}
+

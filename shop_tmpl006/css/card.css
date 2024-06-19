@@ -1,0 +1,42 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 11, 2019, 11:27:27 AM
+    Author     : Levani
+*/
+.card-holder {
+    margin-right: 22px;
+}
+.card_item .card_item_delete:hover, .card_item .card_item_delete:active  {
+   color: #d24529;
+}
+.card_items_total_reg .btn[type="submit"] {
+    color: #fff;
+    background-color: #404242;
+    transition: .3s ease-in-out;
+}
+
+.card_items_total_reg .btn[type="submit"]:hover {
+    background-color: #d24529;
+}
+
+.addnewadress_btn{
+    background: none!important;
+}
+.addnewadress_btn:hover {
+    color: #d24529;
+}
+
+/*add to cart*/
+#cartitemlist .cart-btns > a:hover{
+    background: #d24529;
+    color: #fff;
+}
+
+.back_to_shop:hover {
+    color: #d24529;
+}
+

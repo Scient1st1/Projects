@@ -1,0 +1,293 @@
+/*shop_specific_products_homepage*/
+.specific_holder {
+    background: #7e283a;
+    padding-bottom: 50px;
+    position: relative;
+}
+
+.specific_holder::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 50px;
+    background: url('==TEMPLATE==/images/ornament.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.shop_products_home .catalog_item {
+    padding: 0;
+}
+
+.shop_products_home .catalog_item_ini {
+    position: relative;
+}
+
+.shop_products_home .classifier_item_img  {
+    margin-bottom: 45px;
+    position: relative;
+    overflow: hidden;
+}
+
+.shop_products_home .classifier_item_img::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0, .1);
+    z-index: 10;
+}
+
+.shop_products_home .classifier_item_price {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 45px;
+    background: #ffffff;
+    margin: 30px 45px;
+    z-index: 50;
+    font-family: mon-b;
+    font-size: 16px;
+    color: #3e3d3d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    -webkit-transition: all .4s ease;
+    -moz-transition: all .4s ease;
+    -o-transition: all .4s ease;
+    transition: all .4s ease;
+    padding: 0 10px;
+}
+
+.shop_products_home .classifier_item_price s {
+    padding-right: 5px;
+}
+
+.shop_products_home .ItemImagein {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 40px 57px;
+    background: url('==TEMPLATE==/images/product-hover.png');
+    background-color: rgba(0, 0, 0, 0);
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: center;
+    background-color: rgba(249,220,142, .6);
+    border-radius: 5px;
+    z-index: 20;
+    opacity: 0;
+    -webkit-transition: all .4s ease;
+    -moz-transition: all .4s ease;
+    -o-transition: all .4s ease;
+    transition: all .4s ease;
+}
+
+.shop_products_home .saleicon {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 45px;
+    background: #ffffff;
+    margin: 30px 45px;
+    z-index: 50;
+    font-family: mon-b;
+    font-size: 16px;
+    color: #3e3d3d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    -webkit-transition: all .4s ease;
+    -moz-transition: all .4s ease;
+    -o-transition: all .4s ease;
+    transition: all .4s ease;
+    padding: 0 10px;
+}
+
+.shop_products_home .classifier_item_img img {
+    margin-bottom: 0;
+}
+
+
+.shop_products_home .catalog_item_ini:hover .ItemImagein {
+    opacity: 1;
+    -webkit-transition: all .4s ease;
+    -moz-transition: all .4s ease;
+    -o-transition: all .4s ease;
+    transition: all .4s ease;
+}
+
+.shop_products_home .catalog_item_ini:hover .classifier_item_title, 
+.shop_products_home .catalog_item_ini:hover .classifier_item_title a,
+.shop_products_home .catalog_item_ini:hover .classifier_item_desc{
+    color: #fadc8e;
+
+}
+
+.shop_products_home .catalog_item_ini:hover .classifier_item_price, 
+.shop_products_home .catalog_item_ini:hover .saleicon{
+    background: #e73228;
+    color: #f9f9fc;
+    -webkit-transition: all .4s ease;
+    -moz-transition: all .4s ease;
+    -o-transition: all .4s ease;
+    transition: all .4s ease;
+}
+
+
+.shop_products_home .classifier_item_title {
+    text-align: left;
+    padding-left: 35px;
+    margin-bottom: 18px;
+}
+
+.shop_products_home .classifier_item_title a {
+    font-family: mon-b;
+    font-size: 24px;
+    color: #fcfcfb;
+}
+
+.shop_products_home .classifier_item_desc {
+    padding: 5px 94px 5px 35px;
+    text-align: left;
+    font-family:mon-r;
+    font-size: 14px;
+    line-height: 24px;
+    color: #fcfcfb;
+    position: relative;
+}
+
+.shop_products_home .classifier_item_desc::after {
+    content: '';
+    position: absolute;
+    right: 30px;
+    top: 0;
+    height: 100%;
+    width: 1px;
+    border: 1px dashed #914447;
+}
+
+
+/*shop_specific_products_homepage*/
+
+
+/*shop_specific_products_insidepage*/
+#shop_product_page {
+    position: relative; 
+}
+#shop_product_page::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 50px;
+    background: url('==TEMPLATE==/images/ornament.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.product_text h2, .product_text > div {
+    font-family: mon-r;
+    color: #000000;
+    margin-bottom: 30px;
+}
+
+.shop_prevcat, .shop_nextcat {
+    background-color: #7e283a;
+    color: #ffffff;
+    transition: all .4s ease;
+
+}
+
+
+
+/*shop_specific_products_insidepage*/
+
+
+
+
+.item_View .page_body_products{
+    background: transparent;
+}
+
+.item_View label {
+    font-family: mon-r;
+    color: #000000;
+}
+
+.item_View .product_right > div, .item_View .product_right > form {
+    font-family: mon-r;
+    color: #000000;
+    margin-bottom: 30px;
+
+}
+
+.item_View .prod_socials > div.share {
+    font-family: mon-r;
+    color: #000000;
+    margin-bottom: 10px;
+
+}
+
+
+.item_View .prod_socials > span a{
+    color: #24252d;
+}
+.item_View .prod_basket input {
+    background-color: #7e283a;
+    color: #ffffff;
+    transition: all .4s ease;
+    font-family: mon-r;
+}
+
+.item_View .prod_basket input:hover {
+    background: #ffffff;
+    transition: all .4s ease;
+    border: 1px solid #7e283a;
+    color: #7e283a;
+}
+
+
+
+/*paypage*/
+.pay_View .page_body_products{
+    background: transparent;
+}
+
+
+
+.pay_View .product_image {
+    margin-right: 15px;
+}
+
+.pay_View .product_right > div {
+    margin-bottom: 10px;
+    font-family: mon-r;
+    color: #000000;
+}
+
+.pay_View .pay_btn button {
+    background: #7e283a;
+    color: #ffffff;
+    transition: all .4s ease;
+    font-family: mon-r;
+}
+
+.pay_View .pay_btn button:hover {
+    background: #ffffff!important;
+    transition: all .4s ease;
+    color: #7e283a;
+    font-family: mon-r;
+}

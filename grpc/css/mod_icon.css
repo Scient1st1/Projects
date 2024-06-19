@@ -1,0 +1,375 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/*
+    Author     : Levani
+*/
+
+
+/*csr page*/
+.free_content_one .module_body {
+    margin-bottom: 50px;
+    padding: 0 15px;
+}
+
+.free_content_one .module_body p {
+    font-family:rale-r;
+    font-size: 16px;
+    color: #000000;
+}
+
+
+/*csr page*/
+
+
+
+.image_holder {
+    margin-bottom: 100px;
+}
+
+.image_img_holder {
+    margin-bottom: 15px;
+}
+
+.image_link img {
+    max-width: 100%;
+
+}
+
+.image_links_in {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.image_link {
+    width: 33.33333%;
+    padding: 0 15px;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.frontpage_View .image_link {
+    width: 50%;
+}
+
+.frontpage_View .image_img_holder {
+    display: flex;
+    justify-content: center;
+}
+
+body.sliderbody.frontpage_View .image_link_name {
+    font-size: 20px;
+}
+.image_link_name {
+    font-size: 15px;
+    font-family: mon-m;
+    color: #3891bb;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
+
+
+/*contracts page*/
+
+
+.contract_icon .image_link {
+    width: 50%;
+}
+
+.contract_icon .image_img_holder {
+    margin: 0;
+    position: relative;
+}
+
+/*.contract_icon .image_img_holder::before {
+    content: '';
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background:rgba(0, 0, 0, .5);
+    z-index: 10;
+    -webkit-transition: all .4s ease;
+    -moz-transition: all .4s ease;
+    transition: all .4s ease;
+
+}*/
+
+
+
+.contract_icon .image_link_name {
+    font-family: mon-r;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: bold;
+    z-index: 20;
+    padding-top: 10px;
+}
+
+
+/*mod icon with popup CSR-page*/
+.image_link_inner {
+    position: relative;
+    z-index: 30;
+    cursor: pointer;
+}
+
+.image_link_inner::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+
+}
+
+
+.image_link_inner h4 {
+    /* position: absolute; */
+    /* top: 50%; */
+    /* left: 50%; */
+    /* -webkit-transform: translate(-50%, -50%); */
+    /*    -moz-transform: translate(-50%, -50%);*/
+    /* transform: translate(-50%, -50%); */
+    font-family: mon-r;
+    font-size: 16px;
+    line-height: 22px;
+    /* background: #ffffff; */
+    /* font-weight: bold; */
+    z-index: 20;
+}
+
+
+
+/*popup start*/
+
+.image_pop_overlay {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0, 0.8);
+    display: block;
+    position: fixed;
+    top: 0px;
+    left: 0;
+    z-index: 990;
+    display: none;
+}
+
+.image_popup_holder {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    z-index: 991;
+    width: 60%;
+    min-width: 760px;
+    display: none;
+}
+
+.image_popup_box {
+    background-color: #f2f2f2;
+    border-top: 4px solid #3891bb;
+}
+
+.image_info_popup {
+    display: block;
+    width: 100%;
+    background: #ffffff;
+    padding: 50px 0 20px 270px;
+}
+
+.image_info_popup h4 {
+    margin-bottom: 13px;
+    max-height: 220px;
+    overflow-y: auto;
+    font-size: 18px;
+    color: #000;
+    transition: 0.3s ease-in;
+}
+
+
+.image_desc_popup {
+    display: block;
+    font-size: 16px !important;
+    line-height: 24px;
+    color: #000000;
+    width: 100%;
+    overflow-y: auto;
+    padding: 20px 30px 40px 270px;
+    max-height: 300px;
+    min-height: 150px;
+}
+
+.pop_image_link {
+    width: 240px;
+    height: 170px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: 5px solid #fafafa;
+    overflow: hidden;
+    margin: 29px 0 0 25px;
+}
+
+.pop_image_link img {
+    max-width: 100%;
+}
+
+.image_butt_popup {
+    padding: 0 0 40px 30px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.image_butt_popup a {
+    font-family: mon-r;
+    font-size: 16px;
+    color: #ffffff;
+    text-transform: capitalize;
+    flex: 0 0 220px;
+    display: block;
+    background: #3891bb;
+    padding: 18px;
+    text-align: center;
+    margin: 0 5px;
+    transition: .4s ease;
+    border: 1px solid  #3891bb;
+}
+
+.image_butt_popup a:hover {
+    background: #ffffff;
+    color: #3891bb;
+}
+
+button.image_popup_close {
+    position: absolute;
+    right: 0;
+    top: 0;
+    background: none;
+    border: none;
+    font-size: 28px;
+    color: #ba0f0f;
+    transition: 0.3s ease-out;
+    border-radius: 0;
+}
+
+.image_popup_close span {
+    width: 15px;
+    height: 15px;
+    background-image: url('==TEMPLATE==/images/pop-close.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    display: block;
+    margin: 15px 15px 0 0;
+}
+
+
+
+.image_arrows {
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.img_prev, .img_next {
+    display: table;
+    width: 40px;
+    height: 40px;
+    border-collapse: collapse;
+    cursor: pointer;
+    -webkit-transition: all .4s ease;
+    -moz-transition: all .4s ease;
+    -o-transition: all .4s ease;
+    transition: all .4s ease;
+    position: absolute;
+}
+
+.img_prev {
+    left: 7%;
+    -webkit-clip-path: polygon(0 50%, 50% 0, 50% 100%);
+    clip-path: polygon(0 50%, 50% 0, 50% 100%);
+    background-color: #bdbebe;
+}
+
+.img_prev span {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 5px;
+    left: 3px;
+    /*right: 3px;*/
+    bottom: 5px;
+    /*background-image: url('/templates/grpc/images/pop-next.png');*/
+    background-color: #ffffff;
+    -webkit-clip-path: polygon(0 50%, 50% 0, 50% 100%);
+    clip-path: polygon(0 50%, 50% 0, 50% 100%);
+    display: none;
+}
+
+.img_prev:hover > span, .img_prev:active > span {
+    display: block;
+}
+
+.img_prev:hover, .img_prev:active, .img_prev:focus {
+    background-color: #3891bb;
+}
+
+
+.img_next {
+    right: 7%;
+    -webkit-clip-path: polygon(100% 50%, 50% 0, 50% 100%);
+    clip-path: polygon(100% 50%, 50% 0, 50% 100%);
+    background-color: #bdbebe;
+}
+
+
+.img_next  span {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 5px;
+    /*left: 0;*/
+    right: 3px;
+    bottom: 5px;
+    /*background-image: url('/templates/grpc/images/pop-next.png');*/
+    background-color: #ffffff;
+    -webkit-clip-path: polygon(100% 50%, 50% 0, 50% 100%);
+    clip-path: polygon(100% 50%, 50% 0, 50% 100%);
+    display: none;
+}
+
+.img_next:hover, .img_next:active, .img_next:focus {
+    background-color: #3891bb;
+}
+
+.img_next:hover > span, .img_next:active > span {
+    display: block;
+}
+
+
+.image_arrows_copy {
+    display: block;
+    width: 50%;
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    transform: translate(-50%);
+    display: none;
+}

@@ -1,0 +1,67 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 11, 2019, 11:27:27 AM
+    Author     : Levani
+*/
+
+.card-holder {
+    display: flex;
+    width: 15%;
+
+}
+div#card_icon_total {
+    position: relative;
+}
+span#card_total {
+    font-size: 13px;
+    border-radius: 50%;
+    background-color: #ff084e;
+    color: #fff;
+    width: 20px;
+    height: 20px;
+    /*    display: inline-flex;*/
+    justify-content: center;
+    line-height: 1;
+    padding: 5px;
+    font-family: 'BPGNinoMtavruli';
+    position: absolute;
+    bottom: -4px;
+    left: -10px;
+}
+
+#card_icon_total a {
+    color: #2e2e2e;
+}
+.card_item .card_item_delete {
+    color: #000;
+}
+.card_item .card_item_delete:hover, .card_item .card_item_delete:active  {
+    color: #ff084e;
+}
+.card_items_total_reg .btn[type="submit"] {
+    color: #fff;
+}
+
+
+
+.addnewadress_btn{
+    background: none!important;
+}
+
+
+
+/*add to cart*/
+#cartitemlist .cart-btns > a:hover{
+    background: #ff084e;
+    color: #fff;
+}
+
+.back_to_shop:hover {
+    color: #ff084e;
+}
+
+

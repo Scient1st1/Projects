@@ -1,0 +1,245 @@
+/*header contact*/
+
+.header_contact .contact_infos > div {
+    margin: 0;
+    padding: 0;
+    margin-right: 20px;
+    font-size: 11px;
+    /*line-height: 60px;*/
+    color: #fadc8e;
+    display: flex;
+    align-items: center;
+    line-height: 60px;
+}
+
+.header_contact .contact_infos > div:last-child {
+    margin-right: 0;
+}
+
+
+.contact_info_icon .contact_address span {
+    background: url('==TEMPLATE==/images/addres-header.png');
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: center;
+}
+
+.contact_info_icon .contact_telephone span {
+    background: url('==TEMPLATE==/images/header-phone.png');
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: center;
+}
+
+.contact_info_icon .contact_moreinfo span {
+    background: url('==TEMPLATE==/images/header-time.png');
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: center;
+}
+
+/*header contact*/
+
+
+
+/*footer-contact*/
+
+/*footer-contact*/
+
+
+
+
+
+
+
+
+
+/*contact page*/
+
+
+
+.contact .page_title {
+    font-size: 20px;
+    font-family: mon-r;
+    color: #3891bb;
+    font-weight: bold;
+    margin-bottom: 50px;
+    padding: 0 15px;
+    letter-spacing: 1px;
+}
+
+.contact_form_row label, label#captcha {
+    color: #000000;
+    font-family: mon-b;
+}
+
+#contact_name, #contact_email, #contact_subject,  #contact_telephone {
+    width: 100%;
+    height: 50px;
+    margin-bottom: 20px;
+    padding: 10px 15px;
+    border: 1px solid #7e283a;
+    font-size: 16px;
+    font-family: mon-r;
+    line-height: 24px;
+}
+
+
+
+
+#contact_text {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 20px;
+    padding: 10px 15px;
+    border: 1px solid #7e283a;
+    font-size: 16px;
+    font-family: mon-r;
+    line-height: 24px;
+    cursor: auto;
+}
+
+
+
+.contact_View .contact_infos_in {
+    padding: 35px 0 0 0;
+
+
+}
+
+.contact_View  .contact_infos_in > div {
+    font-size: 16px;
+    font-family: mon-r;
+    line-height: 24px;
+    color: #000000;
+    margin-bottom: 30px;
+    padding-left: 25px;
+    position: relative;
+
+} 
+
+.contact_View  .contact_infos_in > div.contact_address::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 20px;
+    height: 100%;
+    background: url('==TEMPLATE==/images/location-footer.png');
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: center;
+    filter: invert(100%);
+
+}
+
+.contact_View  .contact_infos_in > div.contact_telephone::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 20px;
+    height: 100%;
+    background: url('==TEMPLATE==/images/footer-phone.png');
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: center;
+    filter: invert(100%);
+}
+
+.contact_View  .contact_infos_in > div.contact_mobile:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 20px;
+    height: 100%;
+    background: url('==TEMPLATE==/images/contact_icon.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    filter: invert(100%);
+}
+
+
+.contact_View  .contact_infos_in > div.contact_moreinformation::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 20px;
+    height: 100%;
+    background: url('==TEMPLATE==/images/footer-time.png');
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: center;
+    filter: invert(100%);
+}
+
+.contact_info_icon .contact_mobile span {
+    background: url('==TEMPLATE==/images/contact_icon1.png');
+    background-repeat: no-repeat;
+    background-position: 0 -63px;
+}
+
+.contact_info_icon .contact_fax span {
+    background: url('==TEMPLATE==/images/contact_icon1.png');
+    background-repeat: no-repeat;
+    background-position: 0 0;
+}
+
+.contact_info_icon .contact_email_to span {
+    background: url('==TEMPLATE==/images/contact_icon1.png');
+    background-repeat: no-repeat;
+    background-position: -1px -42px;
+}
+
+.contact_info_icon .contact_webpage span {
+    background: url('==TEMPLATE==/images/contact_icon1.png');
+    background-repeat: no-repeat;
+    background-position: -1px -107px;
+}
+
+
+
+
+.contact .contact_infos_in .contact_email_to a {
+    font-size: 16px;
+    font-family: mon-r;
+    line-height: 24px;
+    color: #000000;
+}
+
+
+
+.contact .contact_infos .contact_text {
+    width: 30px;
+    height: 30px;
+    margin-right: 15px;
+    background-size: 15px;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 50%;
+    border: 1px solid #86bcd6;
+}
+
+.contact .contact_infos .contact_address .contact_text {
+    background-image: url('==TEMPLATE==/images/location.png');
+}
+
+.contact .contact_infos .contact_telephone .contact_text{
+    background-image: url('==TEMPLATE==/images/tel.png');
+}
+
+.contact .contact_infos .contact_email_to .contact_text {
+    background-image: url('==TEMPLATE==/images/email.png');
+}
+
+
+.contact_View .item_butt {
+    margin-bottom: 60px;
+}

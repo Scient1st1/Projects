@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="module" version="1.5.0" method="upgrade">
+    <name>Contact Module</name>
+    <copyright>Copyright (C) 2011 Web Solutions LTD. All Rights Reserved.</copyright>
+    <license>GNU/GPL http://www.gnu.org/copyleft/gpl.html</license>
+    <version>1.1</version>
+    <creationDate>02-09-2011</creationDate>
+    <author>GoodWeb</author>
+    <authorEmail>info@goodweb.ge</authorEmail>
+    <authorUrl>http://www.goodweb.ge</authorUrl>
+    <description>Contact Module desc</description>
+    <files>
+        <folder>tmpl/</folder>
+        <filename>index.html</filename>
+        <filename>helper.php</filename>
+        <filename module="mod_contact">mod_contact.php</filename>
+    </files>
+    <params >
+        <param name="show_image" type="radio" default="0" label="Show Contact Image" description="Show Contact Image description">
+            <option value="0">Hide</option>
+            <option value="1">Show</option>
+        </param>     
+        <param name="show_map" type="radio" default="0" label="Show Map" description="Show map description">
+            <option value="0">Hide</option>
+            <option value="1">Show</option>
+        </param>
+        <param description="contact map width description" name="map_zoom" type="text" default="9" label="map zoom:"  />   
+        <param description="contact map width description" name="map_width" type="text" default="" label="map width:"  />  
+        <param description="contact map height description" name="map_height" type="text" default="400px" label="map height:"  />  
+    
+        <param name="show_type" type="radio" default="0" label="Contact Show Type" description="Contact Show Type description">
+            <option value="0">Text type</option>
+            <option value="1">Icon type</option>
+        </param>     
+        <param name="show_address" type="radio" default="0" label="Show Contact Address" description="Show Contact Address description">
+            <option value="0">Hide</option>
+            <option value="1">Show</option>
+        </param>
+        <param name="show_telephone" type="radio" default="0" label="Show Contact Telephone" description="Show Contact Telephone description">
+            <option value="0">Hide</option>
+            <option value="1">Show</option>
+        </param>
+        <param name="show_mobile" type="radio" default="0" label="Show Contact Mobile" description="Show Contact Mobile description">
+            <option value="0">Hide</option>
+            <option value="1">Show</option>
+        </param>
+      
+        <param name="show_fax" type="radio" default="0" label="Show Contact Fax" description="Show Contact Fax description">
+            <option value="0">Hide</option>
+            <option value="1">Show</option>
+        </param>
+        <param name="email_contact" type="radio" default="0" label="Show Contact Email" description="Show Contact Email description">
+            <option value="0">Hide</option>
+            <option value="1">Show</option>
+        </param>
+        <param name="show_webpage" type="radio" default="0" label="Show Contact Webpage" description="Show Contact Webpage description">
+            <option value="0">Hide</option>
+            <option value="1">Show</option>
+        </param>
+        <param name="show_moreinformation" type="radio" default="0" label="Show Contact Moreinformation" description="Show Contact Moreinformation description">
+            <option value="0">Hide</option>
+            <option value="1">Show</option>
+        </param>  
+    </params>
+    <positions>
+        <position>right</position>
+        <position>mod_contact</position>
+        <position>mod_contact_footer</position>
+        <position>map</position>
+        <position>left</position>
+    </positions>
+</install>

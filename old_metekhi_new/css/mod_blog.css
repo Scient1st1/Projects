@@ -1,0 +1,71 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Dec 18, 2018, 3:08:50 PM
+    Author     : Levani
+*/
+.blog-holder {
+    background: #1d1d1d;
+    padding: 30px 0 70px 0;
+}
+.blog .module_block .module_title {
+    color: #fff;
+    text-align: center;
+}
+
+.blog-holder .container .blog{
+    padding: 30px 0;
+    border-top: 1px solid rgba(255,255,255, .3);
+
+
+}
+
+.blog_modul_in {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.blog_item_t {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+
+.blog_item_at {
+    text-align: center;
+    padding-top: 20px;
+    width: 50%;
+    margin: 0 auto;
+    line-height: 1.5;
+    color: #fff;
+}
+
+.blog_item_t::before {
+    content: "";
+    background-image: url('==TEMPLATE==/images/modblog_quote.png');
+    background-repeat: no-repeat;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    padding-bottom: 10px;
+}
+.blog_item_t::after {
+    content: "";
+    background-image: url('==TEMPLATE==/images/modblog_quotesr.png');
+    background-repeat: no-repeat;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    padding-top: 10px;
+    background-size: 90%;
+    overflow: visible;
+}

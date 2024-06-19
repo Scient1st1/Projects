@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<install type="module" version="1.5">
+    <name>Forms Module</name>
+    <version>1.0.0</version>
+    <description>Forms module</description>
+    <files>
+        <filename module="mod_forms">mod_forms.php</filename>
+        <filename>mod_forms.xml</filename>
+        <filename>helper.php</filename>
+        <filename>index.html</filename>
+        <filename>tmpl/default.php</filename>
+        <filename>tmpl/index.html</filename>
+    </files>
+    <params >
+        <param name="form" type="forms" default="5" label="Select form" description="Select forms" />
+        <param name="show_predesc" type="radio" default="0" label="show pre description" description="show pre description desc">
+            <option value="0">No</option>
+            <option value="1">Yes</option>
+        </param>
+        <param name="show_subdesc" type="radio" default="0" label="show post description" description="show post description desc">
+            <option value="0">No</option>
+            <option value="1">Yes</option>
+        </param>
+    </params>
+    <positions>     
+        <position>mod_forms</position> 
+        <position>mod_forms1</position> 
+        <position>mod_forms2</position> 
+        <position>center_bot</position> 
+        <position>center_top</position> 
+        <position>left</position> 
+		<position>right</position> 
+
+    </positions>
+</install>

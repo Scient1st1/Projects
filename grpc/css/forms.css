@@ -1,0 +1,201 @@
+
+#emailForm  .item_box_button {
+    float: left;
+}
+
+#emailForm .button {
+    background-color: #3891bb;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: mon-m;
+    font-size: 14px;
+    line-height: 24px;
+    border: 1px solid  #3891bb;
+    width: 150px;
+    height: 50px;
+    /*padding: 20px 40px;*/
+    text-align: center;
+    -webkit-transition: all .4s ease;
+    transition: all .4s ease;
+    text-transform: uppercase;
+    white-space: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0;
+    font-weight: bold;
+
+
+}
+
+
+#emailForm .button:hover {
+    background: #ffffff;
+    transition: all .4s ease;
+    color:  #3891bb;
+
+}
+
+
+
+
+.custom_fields_email {
+    width: 100%;
+
+}
+
+.custom_fields_text, .custom_fields_list, .custom_fields_radio, 
+.custom_fields_email, .custom_fields_textarea, .custom_fields_checkbox, 
+.custom_fields_date {
+    border: none;
+}
+
+.forms_View .custom_fields_radio > span {
+    display: flex;
+    flex-direction: column;
+}
+.Form_infos form > div.custom_fields_text > span.userparams_title{
+    text-transform: none;
+     font-style: italic;
+}
+
+.forms_View .custom_fields_info {
+    font-family: mon-r;
+    font-size: 16px;
+    width: 90%;
+    font-style: italic;
+}
+
+.mod_form_infos .placeholder {
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    font-size: 13px;
+    color: #555555;
+    line-height: 1.8;
+    padding: 12px;
+    position: relative;
+}
+
+
+
+.custom_fields_email {
+    border: none;
+}
+
+
+.userparams_title {
+    display: none;
+}
+
+.mod_form_infos .form_values {
+    margin: 0 0 10px;
+}
+
+
+.mod_form_infos .form_values {
+    position: relative;
+}
+
+
+/*formpage*/
+.forms_View .Forms-validate{
+    display: flex;
+    flex-direction: column;
+}
+
+.Form_infos .custom_fields_text input, .custom_fields_date input {
+    height: 50px;
+    border: 1px solid #3891bb;
+    border-radius: 0;
+    font-size: 14px;
+    color: #000000;
+}
+
+
+.custom_fields_text {
+    margin: 60px 0;
+}
+
+.custom_fields_input, .custom_fields_phone, .custom_fields_email{
+    margin: 0!important;
+}
+
+.Form_infos {
+    background: none;
+    padding: 0;
+}
+
+.Form_infos form > div {
+    color: #000000;
+}
+
+.Form_infos form > div > span.userparams_title {
+    float: none;
+    clear: both;
+    width: 100%;
+    margin-bottom: 15px;
+    font-family: mon-m;
+    font-size: 16px;
+    color: #000000;
+    text-transform: uppercase;
+}
+
+.form_values {
+    margin: 0;
+}
+
+
+.intl-tel-input.separate-dial-code.allow-dropdown.iti-sdc-4 input, 
+.intl-tel-input.separate-dial-code.allow-dropdown.iti-sdc-4 input[type=text], 
+.intl-tel-input.separate-dial-code.allow-dropdown.iti-sdc-4 input[type=tel]{
+    width: 250px;
+}
+
+
+.custom_fields_checkbox input, .custom_fields_radio input {
+    font-family: mon-m;
+    font-size: 14px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.custom_fields_textarea textarea {
+    width: 100%;
+    height: 130px;
+    border: 1px solid #3891bb;
+    border-radius: 0;
+    font-size: 14px;
+    color: #000000;
+    cursor: default;
+}
+
+
+.dm-uploader {
+    border: 2px dashed #3891bb;
+    font-family: mon-m;
+    font-size: 12px;
+    color: #686868;
+    height: 60px;
+    padding: 18px 20px;
+    background: #ffffff;
+    display: flex;
+    align-items: center;
+    flex: 0 0 450px;
+    justify-content: space-between;
+    max-width: 400px;
+}
+
+.dm-uploader .btn {
+    border-radius: 0;
+    background: transparent;   
+    color: #686868;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.dm-uploader .btn input[type=file] {
+    height: 100%;
+}
+

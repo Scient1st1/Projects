@@ -1,0 +1,89 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/*
+    Created on : Mar 15, 2018, 5:04:45 PM
+    Author     : Berdia
+*/
+.free_content {
+    min-height: 330px;
+    background-size: 90% !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    margin-bottom: 40px;
+}
+.free_content:before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 12%;
+    background-color: #cd9d43;
+    display: block;
+    height: 5px;
+    width: 275px;
+}
+.free_content:after {
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    left: 9%;
+    background-color: #cd9d43;
+    display: block;
+    height: 5px;
+    width: 275px;
+}
+.free_content .module_title {
+    color: #fff;
+    font-size: 40px;
+    font-family: 'BPGArialCaps2010';
+    line-height: 1.2;
+}
+
+.free_content .module_body {
+    color: #fff;
+    font-size: 30px;
+    font-family: 'BPGArialCaps2010';
+    line-height: 1.2;
+}
+
+
+/*old_metekhi_new free content 2 css*/
+.free-content-two {
+    background: #1d1d1d;
+   
+}
+.free-content-two h3 {
+    color: #ffffff;
+    margin-bottom: 40px;
+    font-size: 30px;
+}
+.free-content-two p {
+    text-align: center;
+    font-size: 20px;
+}
+
+.near-border {
+    width: 10px;
+    height: 10px;
+    margin: 0 auto;
+    border-radius: 50%;
+    background: #787878;
+    margin-top: 34px;
+    position: relative;
+}
+
+.near-border::after{
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: -50px;
+    transform: translate(60%, -1px);
+    background-color: #787878;
+    width: 50px;
+    height: 1px;
+}

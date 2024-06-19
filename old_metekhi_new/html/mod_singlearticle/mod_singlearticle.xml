@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+* @version		$Id: mod_back.xml 22 2011-07-22 22:45:28Z a.kikabidze $
+* @package		Modules
+* @copyright	Copyright (C) 2009 - 2011 WebSolutions LLC. All rights reserved.
+* @license		GNU General Public License version 2 or later
+-->
+<install type="module" version="1.5.0">
+    <name>Single Article module</name>
+    <creationDate>July 2015</creationDate>
+    <license>Comercial License</license>
+    <version>1.0.0</version>
+    <description>This module will display articles which you choose</description>
+    
+    <params addpath="/modules/mod_singlearticle/elements">
+        <param name="gids" type="multiart" default="" label="choose articles" description="choose articles" />
+        <param name="count" type="text" default="5" label="articles count" description="articles count desc" />
+        <param name="random_articles" type="radio" default="0" label="show chosen or random articles" description="show chosen or random articles desc" >
+            <option value="0">chosen</option>
+            <option value="1">random</option>
+        </param>
+        <param name="order_gals" type="list" default="0" label="chosen articles ordering" description="chosen articles ordering desc" >
+            <option value="0">random</option>
+            <option value="1">date - asc</option>
+            <option value="2">date - desc</option>
+            <option value="3">title - asc</option>
+            <option value="4">title - desc</option>
+            <option value="5">Article Selected</option>
+        </param>
+        <param name="show_article_title" type="radio" default="1" label="show article title" description="show article title desc" >
+            <option value="1">yes</option>
+            <option value="0">no</option>
+        </param>
+        <param name="link_title" type="radio" default="1" label="link article title" description="link article title desc" >
+            <option value="1">yes</option>
+            <option value="0">no</option>
+        </param>
+        <param name="show_main_image" type="radio" default="1" label="show image" description="show image" >
+            <option value="1">yes</option>
+            <option value="0">no</option>
+        </param>
+        <param name="link_image" type="radio" default="1" label="link main image" description="link main image" >
+            <option value="1">yes</option>
+            <option value="0">no</option>
+        </param>
+        <param name="show_intro" type="radio" default="1" label="Show Article intro text" description="Description Show Article intro text">
+            <option value="1">Yes</option>
+            <option value="0">No</option>
+        </param>
+        <param name="show_date" type="radio" default="0" label="Show date" description="Show Publish date">
+            <option value="1">Yes</option>
+            <option value="0">No</option>
+        </param>
+        <param name="show_btn" type="radio" default="0" label="Show Button" description="Show read more button">
+            <option value="1">Yes</option>
+            <option value="0">No</option>
+        </param>
+    </params> 
+    <positions>
+        <position>singlearticle</position>
+         <position>singlearticle1</position>
+          <position>singlearticle2</position>
+<position>center_top</position>
+<position>center_bot</position>
+<position>right</position>
+<position>left</position>
+<position>left_bot</position>
+    </positions>
+</install>

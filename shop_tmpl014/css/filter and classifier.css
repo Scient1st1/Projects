@@ -1,0 +1,47 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 11, 2019, 5:19:01 PM
+    Author     : Levani
+*/
+.filter-and-classifier {
+    margin: 20px 0 50px 0;
+}
+
+.mod_filter_prices > input {
+    -webkit-appearance: none;
+    -moz-appearance: textfield;
+    appearance: none;
+}
+
+
+.filter_render_radio {
+    color: #656565;
+    font-weight: bold;
+}
+.filter_render_radio > label {
+    font-weight: normal;
+}
+
+.filter_render_checkbox {
+    font-weight: bold;
+    color: #656565;
+}
+
+.filter_render_checkbox > label {
+    font-weight: normal;
+}
+
+
+
+.mod_filter form > label {
+    display: flex;
+    flex-direction: column;
+}
+/*filter ui*/ 
+.noUi-base, .noUi-handle {
+    background: #69af07;
+}

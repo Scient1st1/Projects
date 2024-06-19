@@ -1,0 +1,145 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/*
+    Created on : Jun 7, 2018, 1:56:09 PM
+    Author     : Berdia
+*/
+
+.faqs_body {
+    background: #333131;
+}
+
+.faqs_body .container {
+    background: #dcdcdc;
+    position: relative;
+    z-index: 9992;
+    padding-left: 0px;
+    padding-right: 0px;
+  
+}
+
+.faqs_body .container:before {
+    content: "";
+    width: 100%;
+    height: 105px;
+    position: absolute;
+    top: -51px;
+    display: block;
+    background: url('==TEMPLATE==/images/faq_decoration.png') no-repeat center;
+    left: 1px;
+}
+
+.faqs_body .faqs_cattitle {
+    font-size: 30px;
+    text-align: center;
+    color: #cd9d43;
+    margin-bottom: 30px;
+}
+
+.faqs_body .question_item {
+    margin: 0px 0px 20px;
+    border: none;
+}
+
+.faqs_body .question {
+    font-size: 24px;
+    color: #333131;
+    font-family: 'BPGArial2010';
+    -webkit-transition: 0.25s ease-in-out;
+    transition: 0.25s ease-in-out;
+}
+.faqs_body .question_icon {
+    background:  url('==TEMPLATE==/images/faq_icon2.png?v=1') no-repeat top left;
+    width: 40px;
+    height: 35px;
+    display: inline-block;
+    float: left;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    margin-left: 15px;
+
+}
+.faqs_body .question:hover {
+    opacity: 1;
+}
+
+.faqs_body .question_item:hover .question_icon, .faqs_body .active_question .question_icon  {
+    background:  url('==TEMPLATE==/images/faq_icon.png?v=1') no-repeat top left;
+}
+
+.faqs_body .active_question .question_icon {
+    -webkit-transform:rotateZ(180deg);
+    -moz-transform:rotateZ(180deg);
+    -ms-transform:rotateZ(180deg);
+    -o-transform:rotateZ(180deg);
+    transform:rotateZ(180deg);
+    transform-origin: 13px 15px;
+}
+
+
+
+.faqs_body .answer {
+    margin-left: -15px;
+}
+.faqs_body .answer {
+    color: #333131;
+    font-size: 22px;
+    margin-left: 0px;
+    line-height: 1.5;
+    font-family: 'BPGArial2010';
+    border-bottom: 1px solid #bebebe;
+    position: relative;
+    padding: 5px 0px;
+    width: 100%;
+    background-color: #fff;
+    padding-left: 35px;
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.faqs_body .answer span {
+    color: #d8b471;
+    text-transform: uppercase;
+}
+
+/*.faqs_body .answer > div:before {
+    content: "";
+    width: 15px;
+    height: 15px;
+    background: url('==TEMPLATE==/images/mini_arrow.png') no-repeat left;
+    display: block;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: -39px;
+    opacity: 0;
+    background-size: 80%;
+}
+.faqs_body .answer > div:hover:before {
+    opacity: 0.8;
+}*/
+
+.faqs_body .answer:before {
+    content: "";
+    width: 166px;
+    height: 2px;
+    display: block;
+    position: absolute;
+    top: -1px;
+    right: 0px;
+    background-color: #d8b471;
+}
+
+.faqs_body .answer:after {
+    content: "";
+    width: 166px;
+    height: 2px;
+    display: block;
+    position: absolute;
+    bottom: -1px;
+    right: 0px;
+    background-color: #d8b471;
+}

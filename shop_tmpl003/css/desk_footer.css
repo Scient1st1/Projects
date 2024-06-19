@@ -1,0 +1,237 @@
+
+/*#footersocials .site_social .site_social_facebook a:hover{
+    background-color: #3b5998;
+}
+#footersocials .site_social .site_social_google a:hover{
+    background-color: #db4437;
+}
+#footersocials .site_social .site_social_twitter a:hover{
+    background-color: #1da1f2;
+}
+#footersocials .site_social .site_social_youtube a:hover{
+    background-color: #cc181e;
+}
+#footersocials .site_social .site_social_linkedin a:hover{
+    background-color: #0077b5;
+}
+#footersocials .site_social .site_social_instagram a:hover{
+    background-color: #aa7e5b;
+}*/
+
+.partners_View #footer {
+    margin-top: 70px;
+}
+
+#footer {
+    background-color: #f0f0f0;
+    padding-bottom: 4em;
+}
+
+.footer_bot {
+    padding: 15px 0px;
+}
+
+.footer_bot .others-holder {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.developed {
+    float: right;
+    color: #000;
+}
+
+.developed a {
+    color: #888;
+    font-family: 'BPGBannerCapsRegular';
+    -webkit-transition: all .25s ease-in-out;
+    -o-transition: all .25s ease-in-out;
+    transition: all .25s ease-in-out;
+}
+
+.developed a:hover {
+    color: #333;
+    text-decoration: underline;
+}
+
+.copyright {
+    float:left;
+    display: block;
+    color: #888;
+    margin-right: 5%;
+    color: #000;
+    line-height: 1.5;
+}
+
+.map_button {
+    margin-top: 167px;
+    margin-right: 40px;
+    display: inline-block;
+    float: right;
+}
+
+.footer_bot .site_social_facebook {
+    /*background-color: #3b5998;*/
+}
+
+.footer_bot .site_social_twitter {
+    background-color: #1da1f2;
+}
+
+.footer_bot .site_social_google {
+    background-color: #db4437;
+}
+
+.footer_bot .site_social_youtube {
+    background-color: #cc181e;
+}
+.footer_bot .site_social_linkedin {
+    background-color: #0077b5;
+}
+.footer_bot .site_social_instagram {
+    /*background-color: #aa7e5b;*/
+}
+
+
+.footer_top {
+    padding: 50px 0;
+}
+
+.footer_top .mod_contact_footer, .footer_top .socials {
+    padding-left: 40px;
+}
+
+.footer_top .mod_forms_footer {
+    padding-right: 40px;
+}
+
+.footer_top .module_title {
+    text-align: left;
+    padding-bottom: 0px;
+}
+
+.footer_top .module_title h2 {
+    font-size: 15px;
+    color: #222222;
+    line-height: 1.5;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.footer_top .contact_infos {
+    margin-bottom: 25px;
+}
+
+.footer_top .contact_infos > div {
+    font-size: 13px;
+    color: #555555;
+    line-height: 1.8;
+}
+
+.footer_top .contact_infos > div a {
+    font-size: 13px;
+    color: #555555;
+    -webkit-transition: 0.25s ease-in-out;
+    transition: 0.25s ease-in-out;
+}
+
+.footer_top .contact_infos > div a:hover {
+    color: #e65540;
+}
+
+.footer_top  .site_social a {
+    font-size: 18px;
+    color: #888;
+    -webkit-transition: 0.25s ease-in-out;
+    transition: 0.25s ease-in-out;
+    margin: 0px 6px;
+}
+
+.footer_top  .site_social {
+    margin-left: -12px;
+}
+
+.footer_top  .site_social a:hover {
+    color: #e65540 !important;
+}
+
+.footer_top .mod_simplemenu .module_block {
+    /*width: 33%;*/
+    float: left;
+}
+
+.mod_simplemenu a {
+    font-size: 13px;
+    color: #555555;
+    line-height: 1.8;
+    -webkit-transition: 0.25s ease-in-out;
+    transition: 0.25s ease-in-out;
+    margin-bottom: 5px;
+    display: inline-block;
+}
+
+.mod_simplemenu a:hover {
+    opacity: .6;
+}
+
+.mod_form_infos .userparams_title{
+    display: none;
+}
+
+.mod_form_infos .form_values {
+    margin: 0 0 30px;
+}
+
+.mod_form_infos .placeholder {
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    font-size: 13px;
+    color: #555555;
+    line-height: 1.8;
+    padding: 7px 0;
+    position: relative;
+}
+.mod_form_infos .form_values {
+    position: relative;
+}
+/*.mod_form_infos .form_values:after {
+    content: '';
+    background-color: #e65540;
+    width: 0;
+    height: 1px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: block;
+    -webkit-transition: 0.4s ease-out;
+    transition: 0.4s ease-out;
+
+}*/
+
+.mod_form_infos .form_values:focus-within:after {
+    width: 100%;
+}
+
+.mod_form_infos .button {
+    border-radius: 23px;
+    background-color: #111;
+    font-size: 18px;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'BPGNinoMtavruli';
+    letter-spacing: 0.5px;
+    border: none;
+    width: 179px;
+    height: 40px;
+    padding: 12px;
+    text-align: center;
+    -webkit-transition: 0.25s ease-in-out;
+    transition: 0.25s ease-in-out;
+
+}
+
+.mod_form_infos .button:hover {
+    background-color: #e65540;
+}

@@ -1,0 +1,136 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 11, 2019, 12:43:10 PM
+    Author     : Levani
+*/
+/*global changes*/
+.header_bot .social-holder {
+    margin-top: 9px;
+}
+
+.site_social {
+    display: flex;
+    justify-content: center;
+}
+.site_social > div {
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 0 5px;
+}
+.site_social > div a {
+    font-weight: bold;
+    color: #000;
+}
+
+
+.socials-area {
+    display: flex;
+    /*margin-top: 24px;*/
+
+}
+
+/*global changes end*/
+
+
+/*footer-socs*/
+.footer_bot .site_social > div {
+    font-size: 26px;
+    padding: 0 30px;
+}
+
+.footer_bot .site_social > div a:hover {
+    transform: translateY(-5px);
+}
+
+.footer_bot .social-holder {
+    border-top: 2px solid #e5e5e5;
+    padding: 42.5px 0 50px 0;
+    
+    
+}
+
+
+.footer_bot .site_social_facebook {
+    /*background-color: #3b5998;*/
+}
+.footer_bot .site_social_twitter {
+    /*background-color: #1da1f2;*/
+}
+.footer_bot .site_social_google {
+    /*background-color: #db4437;*/
+}
+.footer_bot .site_social_youtube {
+    /*background-color: #cc181e;*/
+}
+.footer_bot .site_social_linkedin {
+    /*background-color: #0077b5;*/
+}
+.footer_bot .site_social_instagram {
+    /*background-color: #aa7e5b;*/
+}
+
+
+
+                        /*hovers*/
+                        
+.site_social .site_social_facebook a:hover{
+    color: #3b5998;
+}
+
+.site_social .site_social_instagram a:hover{
+    color: #aa7e5b;
+    
+}
+.site_social .site_social_pinterest a:hover {
+    color: rgb(230, 0, 35);
+}
+
+.site_social .site_social_facebook a:hover{
+    color: #3b5998;
+}
+.site_social .site_social_google a:hover{
+    color: #db4437;
+}
+.site_social .site_social_twitter a:hover{
+    color: #1da1f2;
+}
+.site_social .site_social_youtube a:hover{
+    color: #cc181e;
+}
+.site_social .site_social_linkedin a:hover{
+    color: #0077b5;
+}
+.site_social .site_social_instagram a:hover{
+    /*color: #aa7e5b;*/
+}
+/*.site_social a:hover {
+    opacity: 0.6;
+}*/
+
+
+/*#footersocials .site_social .site_social_facebook a:hover{
+    background-color: #3b5998;
+}
+#footersocials .site_social .site_social_google a:hover{
+    background-color: #db4437;
+}
+#footersocials .site_social .site_social_twitter a:hover{
+    background-color: #1da1f2;
+}
+#footersocials .site_social .site_social_youtube a:hover{
+    background-color: #cc181e;
+}
+#footersocials .site_social .site_social_linkedin a:hover{
+    background-color: #0077b5;
+}
+#footersocials .site_social .site_social_instagram a:hover{
+    background-color: #aa7e5b;
+}*/
+

@@ -1,0 +1,183 @@
+
+.header_top {
+    background-color: #fff; 
+    z-index: 9998;
+    padding: 2.938em !important;
+
+}
+.header_top a  {
+    color: #2e2e2e;
+}
+.header_bot {
+    z-index: 9996;
+    position: static;
+    left: 0;
+    right: 0;
+    padding: 18px 15px 5.72em 15px;
+    -webkit-transition: 0.25s ease-in-out;
+    transition: 0.25s ease-in-out;
+    background-color: #fff;
+   
+}
+
+/*.fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    box-shadow: 0 1px 5px 0px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0 1px 5px 0px rgba(0,0,0,0.2);
+    -webkit-box-shadow: 0 1px 5px 0px rgba(0,0,0,0.2);
+    -o-box-shadow: 0 1px 5px 0px rgba(0,0,0,0.2);
+    -ms-box-shadow: 0 1px 5px 0px rgba(0,0,0,0.2);
+    padding: 10px 15px !important;
+    -webkit-transition: 0.25s ease-in-out;
+    transition: 0.25s ease-in-out;
+}*/
+
+
+
+/*login-start*/
+.mod_login {
+    width: 12%;
+    position: relative;
+        
+}
+
+.mod_login:after {
+    /*content: '';*/
+    width: 1px;
+    height: 20px;
+    background-color: #ccc;
+    position: absolute;
+    right: 0px;
+    top: 5px;
+}
+
+.mod_login .user_icon {
+    width: 27px;
+    height: 27px;
+    /*background:  url('==TEMPLATE==/images/user_icon.png') no-repeat center;*/
+    position: relative;
+    cursor: pointer;
+}
+.mod_login .user_icon:after {
+    content:"\e008";
+    position: absolute;
+    font-family: 'Glyphicons Halflings';
+    font-size: 1.2em;
+    top: 4px;
+    left: 8px;
+    color: #3a3a3a;
+    -webkit-transition: .3s ease-in-out;
+    -moz-transition: .3s ease-in-out;
+    -ms-transition: .3s ease-in-out;
+    -o-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+
+}
+.mod_login .user_icon:hover:after {
+    color: #ff084e;
+}
+
+.logni_btns {
+    display: none;
+    background: #fff;
+    padding: 15px;
+    width: auto;
+    font-size: 0px;
+    align-items: center;
+    color: #3d4246;
+    text-align: center;
+    overflow: hidden;
+    position: absolute;
+    z-index: 9997;
+    right: 0px;
+    top: 30px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.15);
+    min-width: 180px;
+}
+
+.logni_btns a {
+    font-size: 16px;
+    color: #000;
+    display: block;
+    -webkit-transition: 0.25s ease-in-out;
+    transition: 0.25s ease-in-out;
+    padding: 7px 15px;
+    font-family: 'BPGNinoMtavruli';
+    text-transform: uppercase;
+    /*margin-bottom: 10px;*/
+}
+
+.logni_btns a:hover {
+    color: #ff084e;
+}
+
+.logni_btns a span {
+    display: inline;
+    margin-right: 8px !important;
+}
+
+
+
+/* card */
+
+.mod_card {
+    /*margin-top: 15px;*/
+    padding-right: 20px;
+}
+
+.login-and-card {
+    width: 30%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+
+
+#card_icon_total a img {
+    margin-right: -8px;
+}
+
+
+
+.login-and-search {
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+
+.free-content-top .first p {
+    margin: auto;
+}
+
+.header_top .image_logo {
+    text-align: center;
+}
+.image_logo a img {
+    max-width: 100%;
+}
+
+.clicked {
+    height: 24px!important;
+}
+
+.menu-cont {
+    display: flex;
+    justify-content: flex-end;
+}
+
+._51m div .inlineBlock {
+    display: flex !important;
+
+}
+
+
+
+.card-and-login {
+    display: flex;
+    justify-content: flex-end;
+}

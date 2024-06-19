@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<install type="module" version="1.5.0">
+    <name>Map</name>
+    <version>1.0.0</version>
+    <description>Map Description</description>
+    <files>
+        <filename module="mod_map">mod_map.php</filename>
+        <filename>mod_catarticles.xml</filename>
+        <filename>helper.php</filename>
+        <filename>index.html</filename>
+        <filename>tmpl/default.php</filename>
+        <filename>tmpl/index.html</filename>
+    </files>
+    <params addpath="/modules/mod_map/elements">
+        <!--<param name="name" type="text" default="" label="Name" description="Module Name" />-->
+        <param name="map" type="map" default="" label="Select Map" description="Select Map" />
+        <param name="category" type="catcreate" default="" label="Select Map" description="Select Category" />
+        <param name="heigth" type="text" default="" label="Select Map heigth" description="Select Heigth" />
+        <param name="width" type="text" default="" label="Select Map width" description="Select Width" />
+        <param name="" type="category" default="" label=" " description=" " />
+
+        
+    </params>
+    <positions>
+        <position>mod_map</position>
+        <position>center_bot</position> 
+        <position>center_top</position> 
+        <position>left_bot</position> 
+        <position>left</position> 
+        <position>right</position> 
+		<position>mod_contact_footer</position>
+    </positions>
+</install>

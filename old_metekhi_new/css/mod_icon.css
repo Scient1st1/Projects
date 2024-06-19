@@ -1,0 +1,207 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/*
+    Created on : Jun 7, 2018, 6:20:18 PM
+    Author     : Berdia
+*/
+.icon_mod {
+    background-color: #333131;
+    padding: 50px 0px;
+}
+
+.icon_mod .image_links .image_link {
+    float: left;
+    width: 33.3333%;
+
+}
+
+
+.icon_mod .image_links .image_link a {
+    padding: 35px 0px;
+    display: block;
+    text-align: center;
+}
+.icon_mod .image_links .image_link a span {
+    color: #fff;
+    font-family: 'BPGArialCaps2010';
+    font-size: 24px;
+    vertical-align: middle;
+}
+
+.icon_mod .module_title {
+    font-family: 'BPGArialCaps2010';
+    font-size: 24px;
+    color: #fff;
+    margin-bottom: 20px;
+    position: relative;
+    z-index: 9993;
+}
+
+.icon_mod:after {
+    content: "";
+    width: 100%;
+    height: 116px;
+    left: 0;
+    z-index: 9;
+    background-repeat: repeat-x;
+    position: absolute;
+    background-position: center;
+    background-image: url('/templates/old_metekhi/images/header_bg.png');
+    -webkit-transform: rotateX(180deg);
+    -moz-transform: rotateX(180deg);
+    -ms-transform: rotateX(180deg);
+    -o-transform: rotateX(180deg);
+    transform: rotateX(180deg);
+    display: block;
+}
+
+.icon_mod .image_link {
+    -webkit-transition: 0.25s ease-in-out;
+    transition: 0.25s ease-in-out;
+
+}
+.icon_mod .image_link:hover {
+    background-color: #cd9d43;
+}
+
+.icon_mod .image_img {
+    width: 50px;
+    height: 55px;
+    display: inline-block;
+    margin-right: 10px;
+}
+.icon_mod .image_img img {
+    width: 100%;
+    opacity: 0.3;
+
+}
+
+/*old_metekhi_new mod_icon*/ 
+.block-three {
+    background: #1d1d1d;
+    padding-top: 50px;
+
+}
+.block-three-inner {
+    position: relative;
+}
+.free-content-three {
+    position: absolute;
+    bottom: 50%;
+    left: 50%;
+    transform: translate(-50%, 50%) rotate(45deg);
+    display: block;
+    width: 200px;
+    height: 200px;
+    color: #fff;
+    text-align: center;
+    background: rgba(0,0,0, .5);
+    border: 1px solid rgba(255,255,255, .5);
+
+
+}
+
+
+.free-content-three p{
+    transform: rotate(-45deg);
+    position: absolute;
+    top: 17px;
+    left: -2px;
+    margin: 0;
+    line-height: 2rem;
+    display: block;
+    width: 100%;
+    font-size: 20px;
+    color: #cd9d43;
+}
+.free-content-three p a{
+    color: #e0ca8f;
+}
+
+.free-content-three::before {
+    content: "\e114";
+    color: #e0ca8f;
+    font-family: 'Glyphicons Halflings';
+    text-align: center;
+    align-items: center;
+    font-size: 30px;
+    text-align: center;
+    align-items: center;
+    transform: rotate(-45deg) translate(40%);
+    position: absolute;
+    top: 55%;
+    display: block;
+    line-height: 5;
+    width: 100%;
+    height: 100%;
+}
+.free-content-three:hover {
+    cursor: pointer;
+}
+
+
+.free-content-three:hover .block-three-holder > p {
+    color: #1d1d1d;
+}
+
+.free-content-three h3{
+    transform: rotate(-45deg);
+    width: 100%;
+    position: absolute;
+    top:32%;
+    left:0;
+    z-index: 9998;
+}
+
+.free-content-three h3 a {
+    color: #e0ca8f;
+}
+.free-content-three .block-three-line {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transform: rotate(-45deg);
+    z-index: 9995;
+}
+.free-content-three .block-three-line::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 120%;
+    width: 20vw;
+    border: 1px solid #fff;
+    display: block;   
+    transform: translateY(-50%);
+    opacity: .5;
+}
+.free-content-three .block-three-line::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: -160%;
+    width: 20vw;
+    border: 1px solid #fff;
+    display: block;  
+    transform: translateY(-50%);
+    opacity: .5;
+}
+
+
+.image_img img {
+    width: 100%;
+    transition: .5s ease-out;
+}
+.image_img img:hover {
+    transform: scale(1.03);
+}
+
+
+
+    
+
+
+
+

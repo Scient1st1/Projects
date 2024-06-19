@@ -1,0 +1,308 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 29, 2019, 12:50:39 PM
+    Author     : levani
+*/
+
+.simple_holder ul {
+    width: 100%;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.simple_holder ul li {
+    width: 25%;
+    position: relative;
+    padding: 0;
+    min-height: 640px;
+
+}
+
+.simple_holder ul li::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0, .5);
+    z-index: 10;
+    -webkit-transition: all .4s ease;
+    -moz-transition:all .4s ease;
+    transition:all .4s ease;
+}
+.videobg{
+    font-size: 0;
+}
+/*.simple_holder ul  li:first-child {
+    background-image: url('==TEMPLATE==/images/product1.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.simple_holder ul li:nth-child(2){
+    background-image: url('==TEMPLATE==/images/product2.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.simple_holder ul li:nth-child(3){
+    background-image: url('==TEMPLATE==/images/product3.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.simple_holder ul  li:last-child {
+    background-image: url('==TEMPLATE==/images/product4.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+}*/
+
+.simple_holder ul li a {
+    position: relative;
+    /*    top:calc(50% - 30px);
+        left: 50%;*/
+    /*    -webkit-transform: translateX(-50%);
+        -moz-transform: translateX(-50%);
+        -o-transform: translateX(-50%);
+        transform: translateX(-50%);*/
+    font-family:mon-b;
+    font-size: 40px;
+    line-height: 56px;
+    display: block;
+    /*width: 80%;*/
+    text-align: center;
+    text-transform: uppercase;
+    z-index: 20;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+
+}
+
+.simple_holder ul li a span {
+    display: block;
+    position: absolute;
+    top:calc(50% - 30px);
+    left: 50%;
+    width: 80%;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transform: translateX(-50%);
+    -webkit-transition: all .4s ease;
+    -moz-transition:all .4s ease;
+    transition:all .4s ease;
+
+}
+
+.simple_holder ul li a span::before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transform: translateX(-50%);
+    top: -70px;
+    width: 2px;
+    height: 30px;
+    background: #fff;
+    display: none;
+    -webkit-transition: all .4s ease;
+    -moz-transition:all .4s ease;
+    transition:all .4s ease;
+}
+
+.simple_holder ul li a span::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transform: translateX(-50%);
+    bottom: -35px;
+    width: 2px;
+    height: 30px;
+    background: #fff;
+    -webkit-transition: all .4s ease;
+    -moz-transition:all .4s ease;
+    transition:all .4s ease;
+
+}
+
+
+
+/*hovers*/
+
+.simple_holder ul li:hover:before {
+    background: rgba(0,0,0, .7);
+    -webkit-transition: all .4s ease;
+    -moz-transition:all .4s ease;
+    transition:all .4s ease;
+
+}
+
+.simple_holder ul li:hover a {
+    color: #fadc8e;
+    -webkit-transition: all .4s ease;
+    -moz-transition:all .4s ease;
+    transition:all .4s ease;
+}
+
+.simple_holder ul li:hover a span {
+    top: 50%;
+    -webkit-transition: all .4s ease;
+    -moz-transition:all .4s ease;
+    transition:all .4s ease;
+}
+
+.simple_holder ul li:hover a span:before {
+    display: block;
+    -webkit-transition: all .4s ease;
+    -moz-transition:all .4s ease;
+    transition:all .4s ease;
+}
+
+.simple_holder ul li:hover a span:after {
+    display: none;
+    -webkit-transition: all .4s ease;
+    -moz-transition:all .4s ease;
+    transition:all .4s ease;
+}
+
+
+
+/*nosliderbody simplemenu*/
+.menu .maincontent {
+    background-color: #7e283a;
+    position: relative;
+}
+
+.menu .simple_holder {
+    background-color: transparent;
+    position: relative;
+}
+
+.menu .simple_holder::before {
+    content: '';
+    position: absolute;
+    top: -60px;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    background: url('==TEMPLATE==/images/ornament.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    z-index: 999;
+}
+
+.menu .simple_holder::after {
+    content: '';
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    background: url('==TEMPLATE==/images/ornament.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    z-index: 999;
+}
+
+.menu .simple_holder_in {
+    background-color: #e6cb87;
+    padding: 70px 60px 250px 60px;
+    position: relative;
+    width: 1170px;
+    margin: auto;
+} 
+
+.menu .simple_holder_in::before {
+    content: '';
+    position: absolute;
+    top: -60px;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    background-color: #e6cb87;
+}
+
+/*.menu .simple_holder_in::after {
+    content: '';
+    position: absolute;
+    bottom: -60px;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    background-color: #e6cb87;
+}*/
+
+
+.menu .simple_holder ul {
+    justify-content: space-between;
+    padding: 0 15px;
+}
+
+.menu .simple_holder ul li {
+    width: 50%;
+    min-height: 383px;
+    background-size: cover;
+    margin-bottom: 10px;
+    padding: 0 6px;
+    margin-left: -6px;
+    margin-right: -6px;
+}
+
+.menu .simple_holder ul li::before {
+    background: rgba(50,51,61, .3);
+}
+
+.menu .simple_holder ul li:hover::before {
+    background: rgba(50,51,61, .7);
+}
+
+.menu .simple_holder ul li a {
+    font-family: mon-b;
+    font-size: 24px;
+    line-height: 33px;
+}
+
+.menu .simple_holder ul li:hover a {
+    color: #eaceaa;
+    -webkit-transition: all .4s ease;
+    -moz-transition: all .4s ease;
+    -o-transition: all .4s ease;
+    transition: all .4s ease;
+}
+
+.menu .simple_holder ul li a span::before {
+    content: none;
+
+}
+
+
+.menu .simple_holder ul li a span::after {
+    bottom: -22px;
+    height: 18px;
+    opacity: 1;
+}
+
+
+
+
+
+
+

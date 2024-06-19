@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<install type="module" version="1.5">
+    <name>lastproducts Module</name>
+    <version>1.0.0</version>
+    <description>lastproducts Module description</description>
+    <files>
+        <filename module="mod_lastproducts">mod_lastproducts.php</filename>
+        <filename>mod_lastproducts.xml</filename>
+        <filename>helper.php</filename>
+        <filename>index.html</filename>
+        <filename>tmpl/default.php</filename>
+        <filename>tmpl/index.html</filename>
+    </files>
+    <params >
+        <param name="count" type="text" default="5" label="Product count" description="products count desc" />
+        <param name="show_image" type="radio" default="1" label="Show Product Image" description="description show product image">
+            <option value="1">Yes</option>
+            <option value="0">No</option>
+        </param>
+        <param name="show_title" type="radio" default="1" label="Show Product Title" description="Description Show Product Title">
+            <option value="1">Yes</option>
+            <option value="0">No</option>
+        </param>
+        <param name="show_description" type="radio" default="1" label="show product intro text" description="description show product intro text">
+            <option value="1">Yes</option>
+            <option value="0">No</option>
+        </param>
+        <param name="show_price" type="radio" default="1" label="Show Product Price" description="description show price">
+            <option value="1">Yes</option>
+            <option value="0">No</option>
+        </param>
+
+    </params>
+    <positions>     
+        <position>mod_lastproducts</position> 
+        <position>center_top</position>
+        <position>center_bot</position>
+        <position>left_bot</position>
+        <position>left</position>
+       
+
+    </positions>
+</install>

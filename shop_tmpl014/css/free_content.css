@@ -1,0 +1,31 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/*
+    Created on : Mar 15, 2018, 5:04:45 PM
+    Author     : Berdia
+*/
+
+.rel_row {
+    position: relative;
+    margin-bottom: 40px;
+}
+
+.position1 {
+    background-image: url('==TEMPLATE==/images/best-sell-1.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    top: 0;
+    left: 50%;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    background-size: cover;
+}
+
+
+.position1 .module_block {
+    margin: 0;
+}

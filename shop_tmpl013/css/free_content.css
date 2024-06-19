@@ -1,0 +1,265 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/*
+    Created on : Mar 15, 2018, 5:04:45 PM
+    Author     : Berdia
+*/
+/*header-free-pos3*/
+.header-bot-free {
+    margin-top: 17px;
+    background: #ff084e;
+    color: #fff;
+    position: relative;
+    display: flex;
+    padding: 8px 15px 0 15px;
+    -webkit-transition: all 500ms ease 0s;
+    -moz-transition: all 500ms ease 0s;
+    -ms-transition: all 500ms ease 0s;
+    -o-transition: all 500ms ease 0s;
+    transition: all 500ms ease 0s;
+}
+.header-bot-free:before {
+    content:"\e035";
+    font-family: 'Glyphicons Halflings';
+    display: block;
+    height: 17px;
+
+}
+
+.header-bot-free:hover {
+    background-color: #3a3a3a; 
+} 
+
+/*header-free-pos3-end*/
+
+.free_content2 {
+    margin: 40px 0;
+}
+
+.free_content2 .module_block {
+    display: inline-block;
+    width: 33%;
+    text-align: center;
+    border-right: 1px solid #ccc;
+    padding: 20px 0;
+}
+
+.free_content2 .module_block:nth-child(3) {
+    border-right: 0;
+}
+
+.free_content2 .module_body {
+    font-size: 18px;
+    color: #555555;
+    line-height: 1.5;
+}
+
+.free_content2 .module_body a {
+    font-size: 13px;
+    color: #888888;
+    line-height: 1.8;
+    -webkit-transition: 0.25s ease-in-out;
+    transition: 0.25s ease-in-out;
+
+}
+
+.free_content2 .module_body a:hover {
+    color: #e65540;
+}
+
+/* top_wallpaper */
+
+.top_wallpaper {
+    min-height: 300px;
+    margin-top: 100px;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 50px;
+}
+
+.top_wallpaper .module_block {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 50px;
+    background-color: rgba(0, 0, 0, 0.3);
+    text-align: center;
+    font-size: 60px;
+    color: #fff;
+    font-family: 'BPGNinoMtavruli';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.free-content-5 {
+    margin-bottom: 50px;
+}
+
+.free-content-5 .module_block .module_body p {
+    text-align: center;
+}
+.free-content-5 .module_block .module_body p a {
+    margin: 0 auto;
+    text-align: center;
+    padding: 12px 10px 8px 10px;
+    line-height: 1.42;
+    font-weight: normal;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    border-radius: 2px;
+    cursor: pointer;
+    color: #282828;
+    background-color: transparent;
+    border: 1px solid #282828;
+    letter-spacing: 1px;
+    font-size: 0.8em;
+    font-family: 'BPGNinoMtavruli';
+    transition: .2s ease-in-out;
+
+
+}
+.free-content-5 .module_block .module_body p a:hover{ 
+    color: #282828;
+    background-color: rgba(210,69,41,0.3);
+}
+
+
+/*free-content-background-pos-4*/
+.bg {
+    padding: 10% 0;
+    position: relative;
+    margin-bottom: 30px;
+}
+.free-content-bg {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+
+
+}
+
+.free-content-bg h2{
+    color: #fff;
+    font-size: 38px;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+    /*add codepen*/
+    text-shadow: 1px -1px 0 #767676, -1px 2px 1px #737272, -2px 4px 1px #767474;
+
+
+
+}
+
+
+.free-content-bg p {
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.free-content-bg p a{
+    color: #fff;
+    -webkit-transition: .25s all ease-in-out;
+    -moz-transition: .25s all ease-in-out;
+    -ms-transition: .25s all ease-in-out;
+    -o-transition: .25s all ease-in-out;
+    transition: .25s all ease-in-out;
+
+}
+.free-content-bg p a:hover {
+    color: #69af07;
+}
+
+
+
+
+
+
+
+
+
+
+/*free-content-background-pos-4-end*/
+
+
+
+/*.free-content-6 {
+    margin: 45px 0 30px 0;
+}
+
+.free-content-6 p {
+    text-align: center;
+    font-size: 1.2em;
+    line-height: 1.6;
+    color: #0d0d0d;
+    font-weight: normal;
+}*/
+
+/*free-content-pos-6*/
+.free-content-holder {
+    text-align: center;
+    display: flex;
+}
+
+.free-above-slider {
+    padding: 33px 15px;
+    color: #fff;
+}
+
+.free-above-slider a {
+    color: #fff;
+}
+.free-above-slider p:first-child {
+    font-size: 18px;
+}
+
+.one {
+    /*    -webkit-box-flex: 0;
+        -ms-flex: 0 0 33.333333%;
+        flex: 0 0 33.333333%;
+        max-width: 33.333333%;*/
+    width: 33%;
+    background-color: #b8b8b8;
+    text-align: center;
+    -ms-flex-item-align: stretch;
+    align-self: stretch;
+}
+
+.two{
+    /*    -webkit-box-flex: 0;
+        -ms-flex: 0 0 33.333333%;
+        flex: 0 0 33.333333%;
+        max-width: 33.333333%;*/
+    width: 34%;
+    background-color: #ff084e;
+    text-align: center;
+    -ms-flex-item-align: stretch;
+    align-self: stretch;
+}
+
+.three{
+    /*    -webkit-box-flex: 0;
+        -ms-flex: 0 0 33.333333%;
+        flex: 0 0 33.333333%;
+        max-width: 33.333333%;*/
+    width: 33%;
+    background-color: #3a3a3a;
+    text-align: center;
+    -ms-flex-item-align: stretch;
+    align-self: stretch;
+}
+
+

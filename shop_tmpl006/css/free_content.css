@@ -1,0 +1,126 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/*
+    Created on : Mar 15, 2018, 5:04:45 PM
+    Author     : Berdia
+*/
+
+.free_content2 {
+    margin: 40px 0;
+}
+
+.free_content2 .module_block {
+    display: inline-block;
+    width: 33%;
+    text-align: center;
+    border-right: 1px solid #ccc;
+    padding: 20px 0;
+}
+
+.free_content2 .module_block:nth-child(3) {
+    border-right: 0;
+}
+
+.free_content2 .module_body {
+    font-size: 18px;
+    color: #555555;
+    line-height: 1.5;
+}
+
+.free_content2 .module_body a {
+    font-size: 13px;
+    color: #888888;
+    line-height: 1.8;
+    -webkit-transition: 0.25s ease-in-out;
+    transition: 0.25s ease-in-out;
+
+}
+
+.free_content2 .module_body a:hover {
+    color: #e65540;
+}
+
+/* top_wallpaper */
+
+.top_wallpaper {
+    min-height: 300px;
+    margin-top: 100px;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 50px;
+}
+
+.top_wallpaper .module_block {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 50px;
+    background-color: rgba(0, 0, 0, 0.3);
+    text-align: center;
+    font-size: 60px;
+    color: #fff;
+    font-family: 'BPGNinoMtavruli';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.free-content-5 {
+    margin-bottom: 50px;
+}
+
+.free-content-5 .module_block .module_body p {
+    text-align: center;
+}
+.free-content-5 .module_block .module_body p a {
+    margin: 0 auto;
+    text-align: center;
+    padding: 12px 10px 8px 10px;
+    line-height: 1.42;
+    font-weight: normal;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    border-radius: 2px;
+    cursor: pointer;
+    color: #282828;
+    background-color: transparent;
+    border: 1px solid #282828;
+    letter-spacing: 1px;
+    font-size: 0.8em;
+    font-family: 'BPGNinoMtavruli';
+    transition: .2s ease-in-out;
+
+
+}
+.free-content-5 .module_block .module_body p a:hover{ 
+    color: #282828;
+    background-color: rgba(210,69,41,0.3);
+}
+
+.free-content-bg {
+    /*padding: 150px 0;*/
+    padding: 14.83% 0;
+}
+.free-content-bg > p {
+    display: none;
+}
+
+.free-content-6 {
+    margin: 45px 0 30px 0;
+}
+
+.free-content-6 p {
+    text-align: center;
+    font-size: 1.2em;
+    line-height: 1.6;
+    color: #0d0d0d;
+    font-weight: normal;
+}
+
+
+

@@ -1,0 +1,160 @@
+
+#footersocials .site_social .site_social_facebook a:hover{
+    background-color: #3b5998;
+}
+#footersocials .site_social .site_social_google a:hover{
+    background-color: #db4437;
+}
+#footersocials .site_social .site_social_twitter a:hover{
+    background-color: #1da1f2;
+}
+#footersocials .site_social .site_social_youtube a:hover{
+    background-color: #cc181e;
+}
+#footersocials .site_social .site_social_linkedin a:hover{
+    background-color: #0077b5;
+}
+#footersocials .site_social .site_social_instagram a:hover{
+    background-color: #aa7e5b;
+}
+
+.footer {
+    background: #1d1d1d;
+}
+
+.footer_top {
+    padding: 70px 0px 35px;
+    background-color: #ebebeb;
+}
+.footer_bot {
+    background-color: transparent;
+    padding: 15px 0px;
+}
+.developed
+{
+    float: right;
+    color: #fff;
+}
+.developed a
+{
+    color: #FFF;
+    font-family: 'BPGBannerCapsRegular';
+    -webkit-transition: all .25s ease-in-out;
+    -o-transition: all .25s ease-in-out;
+    transition: all .25s ease-in-out;
+}
+
+.developed a:hover {
+    color: #cd9d43;
+    text-decoration: underline;
+}
+
+.copyright {
+    float:left;
+    display: block;
+    color: #fff;
+}
+.map_button {
+    margin-top: 167px;
+    margin-right: 40px;
+    display: inline-block;
+    float: right;
+}
+
+
+.footer_bot .site_social_facebook {
+    background-color: #3b5998;
+}
+
+.footer_bot .site_social_twitter {
+    background-color: #1da1f2;
+}
+
+.footer_bot .site_social_google {
+    background-color: #db4437;
+}
+
+.footer_bot .site_social_youtube {
+    background-color: #cc181e;
+}
+.footer_bot .site_social_linkedin {
+    background-color: #0077b5;
+}
+.footer_bot .site_social_instagram {
+    background-color: #aa7e5b;
+}
+
+
+.footer_top .socials {
+    display: table;
+    margin-top: -15px;
+    margin-left: 4px;
+}
+
+.footer_top .site_social div span {
+    color: #fff;
+}
+.footer_top .site_social div a {
+    border-radius: 50%;
+    background-color: #cd9d43;
+    padding: 7px 5px;
+    display: inline-block;
+    -webkit-transition: 0.25s ease-in-out;
+    transition: 0.25s ease-in-out;
+    border: 1px solid #fff;
+}
+
+
+.footer_top .site_social div a:hover  {
+    opacity: 1;
+    border: 1px solid #fff;
+    box-shadow: 0px 0px 10px 1px #cd9d43;
+}
+
+
+
+.footer_top .site_social > div {
+    margin: 0px 3px;
+}
+
+/*old metekhi footer*/
+.footer-mid .container {
+    display: flex;
+}
+
+.footer-mid #logo {
+    margin: 0 ;
+}
+
+.footer-logo {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    margin-top: 20px;
+}
+
+.footer-mid .container .footer-contact {
+    width: 40%;
+}
+ .footer-logo .footer-logo-description {
+    width: 75%;
+    margin-top: 10%;
+}
+
+.footer-contact .mod_contact {
+    text-align: center;
+    width: 80%;
+    margin: auto;
+   
+}
+.footer-contact .mod_contact .contact_info_icon .contact_infos {
+    display: flex;
+    flex-direction: column;
+    margin-top: 14%;
+    font-size: 20px;
+}
+.footer-contact .mod_contact .contact_info_icon .contact_infos > div {
+    padding-bottom: 20px;
+}
+
+

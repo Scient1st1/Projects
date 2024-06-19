@@ -1,0 +1,69 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+
+
+    Created on : Nov 7, 2018, 4:43:48 PM
+    Author     : Berdia
+
+
+.mod_photo .photo_image_out {
+    max-width: none;
+    width: 20%;
+}
+
+.mod_photo .mod_photo_image img {
+    -webkit-transition: 0.3s ease-out;
+    transition: 0.3s ease-out;
+}
+
+.mod_photo .photo_image_out_in {
+    padding: 0;
+
+}
+
+.mod_photo .mod_photo_image_in {
+    background-color: #000;
+}
+
+.mod_photo .photo_image_hover:hover .mod_photo_image img {
+    opacity: 0.15
+}
+.mod_photo .photo_image_hover .mod_photo_title {
+    -webkit-transition: 0.3s ease-out;
+    transition: 0.3s ease-out;
+    opacity: 0;
+    display: block;
+
+}
+.mod_photo .photo_image_hover:hover  .mod_photo_title {
+    top: 30px;
+    left: 30px;
+    opacity: 1;
+}
+
+.mod_photo .mod_photo_date {
+    border-top: none;
+    opacity: 0;
+    -webkit-transition: 0.3s ease-out;
+    transition: 0.3s ease-out;
+    bottom: 0px;
+    display: block;
+
+}
+
+.mod_photo .photo_image_hover:hover  .mod_photo_date  {
+    bottom: 30px;
+    opacity: 1;
+}
+
+.mod_photo .mod_photo_title a {
+    -webkit-transition: 0.25s ease-in-out;
+    transition: 0.25s ease-in-out;
+    display: inline-block;
+}
+
+.mod_photo .mod_photo_title a:hover {
+    color: #e65540;
+}*/

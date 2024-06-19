@@ -1,0 +1,267 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 15, 2019, 2:56:28 PM
+    Author     : Levani
+*/
+@media only screen and (max-width : 1920px){
+    #logo {
+        width: 100%;
+        text-align: center;
+    }
+    .mod_card {
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width : 1360px){
+    .lang_switcher_block {
+        top: 30px;
+        left: 35px;
+    }
+}
+@media only screen and (max-width: 1199px) {
+    .shop_product_big_img > img {
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 1180px){
+    .search-and-lang, .login-and-card {
+        width: 25%;
+    }
+    .logo-cont {
+        width: 50%;
+    }
+}
+@media only screen and (max-width : 1060px) { 
+    /*    .logni_btns {
+            display: flex;
+            flex-direction: column;
+        }
+    }*/
+    @media only screen and (max-width : 991px){
+        .singlearticle_image a img{
+            margin: 0 30px;
+        }
+        .wsd_subhavechildren::after {
+            transform: rotate(90deg);
+        }
+    }
+     @media only screen and (max-width : 751px){
+         .singlearticle_image {
+             float: none;
+         }
+          .singlearticle_image a img{
+            margin: 0;
+            width: 100%;
+        }
+     }
+    @media only screen and (max-width : 767px){
+        .lang_switcher_block{
+            /*top: 0;*/
+            /*left: 80%;*/
+        }
+
+        .logo-cont {
+            margin-bottom: 10px;
+        }
+        .login-and-card {
+            display: flex;
+            /*justify-content: center;*/
+        }
+        .logni_btns {
+            flex-direction: row;
+        }
+        .mod_popular {
+            width: 95%;
+            margin: auto;
+        }
+    }
+    @media only screen and (max-width : 749px){
+        .search-and-lang  {
+            order: 2;
+        }
+
+        .logo-cont {
+            order: 1
+        }
+        .login-and-card {
+            order: 3;
+        }
+
+    }
+    @media only screen and (max-width: 693px){
+        .shop_product_lil_imgs {
+            /*display: none;*/
+        }
+        .shop_prevcat, .shop_nextcat {
+            /*display: none;*/
+        }
+    }
+    @media only screen and (max-width : 500px){
+        .header_top .container-fluid {
+            flex-direction: column;
+        }
+        .logo-cont {
+            width: 100%;
+        }
+        .search-and-lang{
+            display: flex;
+            justify-content: space-between;
+            flex-direction: column;
+        }
+        .search_hold {
+            margin-left: 0px;
+            text-align: center;
+            margin-bottom: 10px;
+        }
+        .search_area {
+            left: auto;
+            right: -45px;
+        }
+        .lang_switcher_block{
+            position: static;
+            margin: auto;
+            margin-bottom: 20px;
+        }
+        .slider {
+            margin: 20px 0;
+        }
+        .social-holder {
+            margin-bottom: 10px;
+        }
+        .login-and-card {
+            width: 100%;
+            justify-content: center;
+        }
+        .logni_btns {
+            right: auto;
+            top: 29px;
+        }
+
+
+    }
+
+    @media only screen and (max-width : 479px) {
+        /*global*/
+        .module_title h2 {
+            font-size: 25px;
+        }
+        /*header*/
+        .search-and-lang {
+            display: flex;
+            flex-direction: column;
+        }
+        .search_hold {
+            text-align: center;
+            margin-bottom: 10px;
+        }
+        .lang_switcher_block a.activelang span {
+            color: #000;
+            opacity: .6;
+        }
+        .lang_switcher_block, .logo-cont {
+            margin: 0 auto;
+            margin-bottom: 10px;
+        }
+        .image_logo a img {
+            max-width: 100%;
+        }
+
+        /*menu collapse*/
+        .menu_holder {
+            position: static;
+            margin-top: 0px;
+        }
+        .mainmenu ul.menu  {
+            background: #fff;
+            border: 1px solid #e8e9eb;
+        }
+        .mainmenu ul.menu > li.active > a {
+            color: #333;
+            border: none;
+        }
+        .slider {
+            margin-top: 0px;
+        }
+
+        /*classifier*/
+
+
+        /*singlearticle*/
+        .single-article {
+            margin-bottom: 20px;
+        }
+        .singlearticle_item_ini  {
+            flex-direction: column;
+        }
+        .singlearticle_item_ini .singlearticle_image {
+            margin: 0 0 20px 0;
+        }
+
+        /*partners*/
+        .partners-holder {
+            margin-bottom: 20px;
+        }
+        #multi_items_slider {
+            flex-direction: column;
+        }
+        #multi_items_slider > li {
+            width: 100%;
+            text-align: center;
+            padding: 10px 0;
+        }
+
+    }
+
+    @media screen and (max-width: 340px){
+        .filter_render_radio, .filter_render_checkbox {
+            display: flex;
+            flex-direction: column;
+        }
+    }
+    @media screen and (max-width: 300px){
+        /*header*/
+        .mod_card {
+            padding: 0;
+        }
+        .search_area {
+            right: -70px;
+        }
+        .lang-cont {
+            position: relative;
+        }
+        .lang_switcher_block {
+            position: absolute;
+            top: 0;
+            left: -188px; 
+        }
+        /*menu*/
+        .wsd_sub2 {
+            border: 0;
+        }
+        .wsd_havechildren::after, .wsd_subhavechildren::after {
+            display: none;
+        }
+        
+        /*singlearticle*/
+          .singlearticle_item_ini .singlearticle_image a img {
+            width: 270px; 
+        }
+        
+        /*footer*/
+        .site_social, .others-holder {
+            text-align: center;
+        }
+        
+    }
+    /*@media screen and (-webkit-min-device-pixel-ratio:0) {
+        div.shop_product_lil_img { height: 150px; }
+    }
+    @media screen and (-moz-min-device-pixel-ratio:0) {
+        div.shop_product_lil_img { height: 100%; }
+    }*/
+}

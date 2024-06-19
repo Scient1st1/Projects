@@ -1,0 +1,34 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Dec 17, 2018, 4:05:27 PM
+    Author     : Levani
+*/
+.block-four-holder {
+    background: #1d1d1d;
+    padding: 50px 0 0 0;
+}
+.block-four-holder .frontpage .page_title {
+    display: none;
+}
+
+.block-four-holder .item_title{
+    text-align: center;
+    font-size: 25px;
+}
+.block-four-holder .item_intro {
+    text-align: center;
+}
+.block-four-holder .item_title a {
+    color: #e0ca8f;
+}
+.front .page_item {
+    padding: 20px 0;
+    background: #000;
+}
+.block-four-holder .front .date_more .readmore {
+    display: none;
+}

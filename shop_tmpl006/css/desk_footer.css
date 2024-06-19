@@ -1,0 +1,214 @@
+#footer {
+    background-color: #1c1c1c;
+    color: #fff;
+    /*padding-bottom: 4em;*/
+}
+
+
+
+
+.footer_bot {
+    background-color: #1c1c1c;
+    padding: 17.25px 0px;
+}
+
+.footer_bot .others-holder {
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    margin: 30px 0;
+}
+
+.developed {
+    float: right;
+}
+
+.developed a {
+    color: #888;
+    font-family: 'BPGBannerCapsRegular';
+    -webkit-transition: all .25s ease-in-out;
+    -o-transition: all .25s ease-in-out;
+    transition: all .25s ease-in-out;
+}
+
+.developed a:hover {
+    color: #d24529;
+    text-decoration: underline;
+}
+
+.copyright {
+    float:left;
+    display: block;
+    margin-right: 30px;
+    line-height: 1.5;
+}
+
+.map_button {
+    margin-top: 167px;
+    margin-right: 40px;
+    display: inline-block;
+    float: right;
+}
+
+
+
+
+.footer_top {
+    padding: 30px 0 51px 0;
+}
+
+.footer_top .mod_contact_footer, .footer_top .socials {
+    padding-left: 40px;
+    
+}
+
+.footer_top .mod_forms_footer {
+    padding-right: 40px;
+}
+
+.footer_top .module_title {
+    text-align: left;
+    padding-bottom: 0px;
+}
+
+.footer_top .module_title h2 {
+    font-size: 15px;
+    color: #222222;
+    line-height: 1.5;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.footer_top .contact_infos {
+    margin-bottom: 25px;
+}
+
+.footer_top .contact_infos > div {
+    font-size: 13px;
+    color: #555555;
+    line-height: 1.8;
+}
+
+.footer_top .contact_infos > div a {
+    font-size: 13px;
+    color: #555555;
+    -webkit-transition: 0.25s ease-in-out;
+    transition: 0.25s ease-in-out;
+}
+
+.footer_top .contact_infos > div a:hover {
+    color: #e65540;
+}
+
+.footer_top  .site_social a {
+    font-size: 18px;
+    color: #888;
+    -webkit-transition: 0.25s ease-in-out;
+    transition: 0.25s ease-in-out;
+    margin: 0px 6px;
+}
+
+.footer_top  .site_social {
+    margin-left: -12px;
+}
+
+.footer_top  .site_social a:hover {
+    color: #e65540 !important;
+}
+
+.footer_top .mod_simplemenu .module_block {
+    /*width: 33%;*/
+    float: left;
+}
+
+.mod_simplemenu a {
+    font-size: 13px;
+    color: #555555;
+    line-height: 1.8;
+    -webkit-transition: 0.25s ease-in-out;
+    transition: 0.25s ease-in-out;
+    /*margin-bottom: 5px;*/
+    display: inline-block;
+}
+
+.mod_simplemenu a:hover {
+    text-decoration: underline;
+}
+
+.mod_form_infos .userparams_title{
+    display: none;
+}
+
+.mod_form_infos .form_values {
+    margin: 0 0 30px;
+}
+
+.mod_form_infos .placeholder {
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    font-size: 13px;
+    color: #555555;
+    line-height: 1.8;
+    padding: 12px;
+    position: relative;
+}
+.mod_form_infos .form_values {
+    position: relative;
+}
+
+
+
+.mod_form_infos .form_values:focus-within:after {
+    width: 100%;
+}
+
+.mod_form_infos .button {
+    border-radius: 23px;
+    background-color: #111;
+    font-size: 18px;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'BPGNinoMtavruli';
+    letter-spacing: 0.5px;
+    border: none;
+    width: 179px;
+    height: 40px;
+    padding: 12px;
+    text-align: center;
+    -webkit-transition: 0.25s ease-in-out;
+    transition: 0.25s ease-in-out;
+
+}
+
+.mod_form_infos .button:hover {
+    background-color: #e65540;
+}
+
+.mod_forms_footer .module_block .module_title h2 {
+    color: #fff;
+    text-align: left;
+    
+}
+.mod_forms_footer .module_block .module_title h2:after {
+    width: 500px;
+    height: 1px;
+    background: none;
+    background-color: #fff;
+    color: #fff;
+    top: 30px;
+}
+.form_values {
+    background: #fff;
+}
+.custom_fields_email {
+    border: none;
+}
+.site_social {
+    font-size: 26px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}

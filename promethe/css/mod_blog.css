@@ -1,0 +1,190 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jun 11, 2019, 2:47:38 PM
+    Author     : levani
+*/
+
+/*blog-free*/
+.blog_title_hold {
+    margin-bottom: 100px;
+}
+
+.blog_title_hold .module_title h2 {
+    font-family: mon-b;
+    font-size: 30px;
+    line-height: 56px;
+    color: #fbfcfe;
+    text-align: center;
+    padding: 0 20px;
+
+}
+
+.blog_title_hold .module_body p, .blog_title_hold .module_body div {
+    font-family: mon-r;
+    font-size: 18px;
+    color: #fbfcfe;
+    text-align: center;
+    padding: 0 15px;
+
+}
+
+
+
+/*blog-free*/
+
+.blog_holder {
+    width: 100%;
+    background: url('==TEMPLATE==/images/footerbg.png');
+    background-repeat: repeat-x;
+    background-size: cover;
+    background-color: #7e283a;
+    background-position: center;
+    padding: 75px 0 145px 0;
+}
+
+
+/*.mod_blog_cont {
+    display: flex;
+    flex: 0 0 1200px;
+    margin: auto;
+    justify-content: center;
+}*/
+
+
+.blog_modul_in {
+    max-width: 1200px!important;
+    margin: auto;
+    position: relative;
+    padding: 0 20px;
+}
+
+.blog_modul_in::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 20px;
+    background: #7e283a;
+}
+
+
+.blog_item_at {
+    font-family: mon-b;
+    font-size: 18px;
+    color: #fadc8e;
+    padding: 9px 0 0 55px;
+    margin-bottom: 35px;
+    position: relative;
+}
+
+.blog_item_at::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 25px;
+    height: 28px;
+    background: url('==TEMPLATE==/images/blog.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+
+}
+
+.blog_item_t {
+    font-family: mon-r;
+    font-size: 14px;
+    line-height: 24px;
+    color: #fbfcfe;
+    padding-right: 48px;
+    position: relative;
+}
+
+.blog_item_t::after {
+    content: '';
+    position: absolute;
+    right: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 1px;
+    height: 60px;
+    border: 1px dashed #914447;
+}
+
+
+/*arrows*/
+.owl-theme .owl-nav {
+    display: flex!important;
+    position: absolute;
+    bottom: -146px;
+    left: 50%;
+    -webkit-transform: translate(-50%);
+    -moz-transform: translate(-50%);
+    -o-transform: translate(-50%);
+    transform: translate(-50%);
+    width: 120px;
+    height: 50px;
+    margin: 0!important;
+
+}
+
+.owl-theme .owl-nav .owl-prev, .owl-theme .owl-nav .owl-next {
+    margin: 0!important;
+    width: 50%;
+    height: 49px;
+    border: 1px solid #ded1c1;
+    border-radius: 0!important;
+    background-color: transparent!important;
+    padding: 0!important;
+    display: flex!important;
+    justify-content: center;
+    align-items: center;
+    transition: all .4s ease;
+}
+
+.owl-theme .owl-nav .owl-prev {
+    background: url('==TEMPLATE==/images/blog-left.png')!important;
+    background-repeat: no-repeat!important;
+    background-position: center!important;
+    background-size: 30%!important;
+}
+
+.owl-theme .owl-nav .owl-next {
+    background: url('==TEMPLATE==/images/blog-right-colored.png')!important;
+    background-repeat: no-repeat!important;
+    background-position: center!important;
+    background-size: 30%!important;
+
+}
+
+
+.owl-theme .owl-nav .owl-prev:hover {
+    background: url('==TEMPLATE==/images/blog-left-black.png')!important;
+    background-repeat: no-repeat!important;
+    background-position: center!important;
+    background-size: 30%!important;
+    background-color: #fadc8e!important;
+}
+
+.owl-theme .owl-nav .owl-next:hover {
+    background: url('==TEMPLATE==/images/blog-right.png')!important;
+    background-repeat: no-repeat!important;
+    background-position: center!important;
+    background-size: 30%!important;
+    background-color: #fadc8e!important;
+
+}
+
+
+
+
+
+
+
+
+

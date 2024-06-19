@@ -1,0 +1,141 @@
+
+/* ========= PAGEINATION ========= */
+.pagination {
+    font-size: 20px;
+    display: table;
+    padding: 30px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+
+}
+
+.p_prev,
+.p_prev a {
+    background: url(==TEMPLATE==/images/pagination_prev.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 45px;
+    float: left;
+    border-radius: 0px;
+    background-color: transparent;
+    display: block;
+    background-size: 25px;
+}
+
+.p_next,
+.p_next a {
+    background: url(==TEMPLATE==/images/pagination_next.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 45px;
+    float: left;
+    border-radius: 0px;
+    background-color: transparent;
+    display: block;
+    background-size: 25px;
+}
+
+.p_next {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.p_prev {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.p_next a,
+.p_prev a {
+    background-color: #d8b471;
+    border: 1px solid #fff;
+    -webkit-transition: all .25s ease-in-out;
+    -o-transition: all .25s ease-in-out;
+    transition: all .25s ease-in-out;
+}
+.p_next a:hover,
+.p_prev a:hover {
+    background-color: transparent !important;
+    border-color: #d8b471;
+}
+
+.p_num {
+    margin: 0 5px;
+}
+
+.p_num > span {
+    color: #4c4c4c;
+    border: 1px solid #e6e6e6;
+    display: block;
+    float: left;
+    border-radius: 0px;
+    text-align: center;
+    min-width: 50px;
+    margin-left: 5px;
+    background-color: transparent;
+
+}
+.p_num > span a {
+    padding: 14px;
+    -webkit-transition: all .25s ease-in-out;
+    -o-transition: all .25s ease-in-out;
+    transition: all .25s ease-in-out;
+}
+
+.p_num > span:hover {
+    color: #d8b471;
+    background-color: transparent;
+    border-color: #d8b471;
+    -webkit-transition: all .25s ease-in-out;
+    -o-transition: all .25s ease-in-out;
+    transition: all .25s ease-in-out;
+}
+
+.p_num > span:hover a {
+    color: #fff;
+    background: transparent !important;
+}
+
+.p_num > span.activepage {
+    color: #Fff;
+    background-color: #d8b471;
+    padding: 14px;
+}
+
+.p_num a {
+    color: #ccc;
+    padding: 0;
+    display: block;
+}
+
+.activepage {
+    border-radius: 0;
+    background-color: #d8b471 !important;
+    padding: 0;
+}
+
+
+div.pp_overlay {
+    z-index: 99;
+}
+
+#footersocials > a{
+    display: block;
+    float: left;
+    border: 1px solid #d8b471;
+    padding: 2px 3px 0;
+    height: 37px;
+    transition: .3s;
+    margin: 0 5px;
+}
+#footersocials > a:hover{
+    background-color: #003382;
+}
+
+.activepage, .pagination a:hover {
+    border-radius: 0px;
+}

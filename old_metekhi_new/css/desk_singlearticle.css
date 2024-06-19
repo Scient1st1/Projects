@@ -1,0 +1,124 @@
+.singlearticle {
+    padding: 100px  0px 70px;
+}
+
+.singlearticle .module_title {
+    font-family: 'BPGArialCaps2010';
+    text-align: center;
+    color: #d8b471;
+    font-size: 36px;
+    margin: 15px 0px 40px;
+
+}
+
+.singlearticle .singlearticle_image {
+    width: 50%;
+    padding-top: 70px;
+    position: relative;
+    border-bottom: 6px solid #CD9D43;
+    float: left;
+}
+
+.singlearticle .singlearticle_image:before {
+    content: "";
+    width: 100%;
+    height: 60px;
+    display: block;
+    position: absolute;
+    top: 0px;
+    background:  url('==TEMPLATE==/images/decoration1.png') no-repeat center;
+    background-size: 100%;
+}
+
+.singlearticle .singlearticle_image img {
+    width: 100%;
+}
+
+.singlearticle .singlearticle_desc {
+    display: block;
+    float: left;
+    width: calc(50% - 20px);
+    margin-top: 70px;
+    margin-left: 20px;
+}
+
+.singlearticle .singlearticle_title a {
+    font-size: 24px;
+    color: #fff;
+    font-family: 'BPGArialCaps2010';
+    margin: 25px 0px 45px;
+    display: block;
+}
+
+.singlearticle .singlearticle_intro {
+    color: #dcdcdc;
+    font-size: 16px;
+    font-family: 'BPGArial2010';
+    margin-bottom: 60px;
+}
+
+.singlearticle .singlearticle_readmore {
+    float: right;
+}
+.singlearticle .singlearticle_readmore a {
+    font-size: 16px;
+    color: #333;
+    background-color: #fff;
+    padding: 12px 22px;
+    font-family: 'BPGArialCaps2010';
+    border: 1px solid transparent;
+    -webkit-transition: 0.25s ease-in-out;
+    transition: 0.25s ease-in-out;
+}
+.singlearticle .singlearticle_readmore a:hover {
+
+    border: 1px solid #d8b471;
+    background-color: transparent;
+    color: #d8b471;
+
+}
+
+
+.singlearticle .singlearticle_date {
+    font-size: 16px;
+    color: #dcdcdc;
+}
+
+/*singlearticle old_metekhi_new*/
+.singlearticles {
+    padding-top: 30px;
+}
+.singlearticle-holder {
+    background: #1d1d1d;
+}
+
+.singlearticle-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.singlearticle_item {
+    padding: 10px;
+    width: 24%;
+    background: #000;
+
+}
+.singlearticle_image {
+    transition: 1.5s ease-in-out;
+}
+
+.singlearticle_image img {
+    width: 100%;
+    
+}
+.singlearticle_image img:hover {
+    transform: scale(1.03);
+} 
+
+
+.singlearticle_title {
+    text-align: center;
+    color: #e0ca8f;
+    margin: 10px 0;
+}

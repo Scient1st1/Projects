@@ -1,0 +1,64 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 9, 2019, 3:40:04 PM
+    Author     : Levani
+*/
+
+.partner_intro {
+    padding: 0;
+    border: none;
+}
+#multi_items_slider {
+    margin: 0;
+}
+
+#multi_items_slider img {
+    max-width: 100%;
+}
+
+#multi_items_slider > li {
+    width: 20%;
+}
+#multi_items_slider > li a {
+    text-align: center;
+}
+
+#msii4 {
+    /*order: 1;*/
+}
+#msii {
+  /*order: 2;*/
+}
+
+#msii1 {
+    /*order: 3;*/
+}
+
+#msii3 {
+    /*order: 5;*/
+    
+    text-align: center;
+    align-items: center;
+}
+
+.partners-holder {
+    margin-bottom: 10px;    
+}
+
+
+.multi_items_slider_prev, .multi_items_slider_next {
+    background: transparent;
+}
+.multi_items_slider_next {
+    /*right: 13px;*/
+}
+.multi_items_slider_prev:hover, .multi_items_slider_next:hover {
+    opacity: .6;
+}
+.multi_items_slider_prev::before{
+    width: auto;
+}

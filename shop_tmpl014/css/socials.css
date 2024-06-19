@@ -1,0 +1,55 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 11, 2019, 12:43:10 PM
+    Author     : Levani
+*/
+/*global changes*/
+.site_social {
+    display: flex;
+    justify-content: center;
+}
+.site_social > div {
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 0 5px;
+}
+.site_social > div a {
+    font-weight: bold;
+    color: #fff;
+}
+
+
+.socials-area {
+    display: flex;
+    margin-top: 17px;
+
+}
+
+/*global changes end*/
+
+
+/*footer-socs*/
+.footer_bot .site_social > div {
+    font-size: 26px;
+    padding: 0 30px;
+}
+
+.footer_bot .site_social > div a:hover {
+    transform: translateY(-5px);
+}
+
+.footer_bot .social-holder {
+    border-top: 2px solid #e5e5e5;
+    padding: 42.5px 0 50px 0;
+    
+}
+
+
+

@@ -1,0 +1,222 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 29, 2019, 12:50:39 PM
+    Author     : levani
+*/
+.rightside_in ul {
+    background: #fff;
+}
+
+.rightside_in ul li {
+    border-bottom: 2px solid #88bdd6;
+    padding: 0 5px;
+}
+
+.rightside_in ul li:last-child {
+    border: none;
+}
+
+
+.rightside_in ul li a{
+    font-family:rale-r;
+    font-size: 16px;
+    line-height: 72px;
+    display: block;
+    color: #000000;
+    background: #ffffff;
+    padding-left: 30px;
+    position: relative;
+    -webkit-transition:all .4s ease;
+    -moz-transition:all .4s ease;
+    transition:all .4s ease;
+    font-weight: bold;
+
+}
+
+.rightside_in  ul li a:hover {
+    color: #3891bb;
+}
+
+.rightside_in  ul li a.linkactive {
+    color: #3891bb;
+}
+
+.rightside_in  ul li.active {
+    position: relative;
+}
+
+.rightside_in  ul li.active::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 5px;
+    background: #3891bb;
+}
+
+.rightside_in  ul li a.linkactive span:after {
+    transform: rotate(90deg);
+}
+
+.rightside_in  ul .wsd_subhavechildren span ,
+.rightside_in  ul .wsd_havechildren span {
+    position: relative;
+    padding-right: 10px;
+}
+
+.rightside_in  ul .wsd_subhavechildren span::after,
+.rightside_in  ul .wsd_havechildren span::after {
+    content: '';
+    position: absolute;
+    top: calc(50% - 3px);
+    right: -1px;
+    width: 5px;
+    height: 8px;
+    background-image: url('==TEMPLATE==/images/rightmenu_arr.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+
+.rightside_in  ul .wsd_subhavechildren:hover span::after,
+.rightside_in  ul .wsd_havechildren:hover span::after {
+    transform: rotate(90deg);
+    transition: all .4s ease;
+}
+
+
+
+
+/*level 2*/
+
+.rightside_in  ul.wsd_sub3,
+.rightside_in  ul.wsd_sub2 {
+    position: static;
+    /*display: block;*/
+    padding: 0!important;
+    border: 0;
+}
+
+
+.rightside_in  ul.wsd_sub3 li,
+.rightside_in  ul.wsd_sub2 li {
+    width: 100%!important;
+    border: 0;
+    margin-bottom: 15px;
+}
+
+.rightside_in  ul.wsd_sub3 li:last-child,
+.rightside_in  ul.wsd_sub2 li:last-child {
+    padding-bottom: 20px;
+    margin: 0;
+}
+
+.wsd_itemsub::before {
+    display: none;
+}
+
+.wsd_itemsub span::after {
+    display: none;
+}
+
+
+.rightside_in  ul.wsd_sub3 li a ,
+.rightside_in  ul.wsd_sub2 li a {
+    padding: 0 0 0 70px!important;
+    line-height: 26px;
+    font-size: 14px;
+}
+
+.rightside_in  ul li a.lastactive {
+    color: #3891bb;
+}
+
+
+/*level 2*/
+
+
+
+
+
+.simple-menu > li {
+    padding: 0!important;
+}
+
+.simple-menu li a {
+    font-family:rale-r;
+    font-size: 16px;
+    line-height: 72px;
+    display: block;
+    color: #000000;
+    background: #ffffff;
+    padding-left: 30px;
+    position: relative;
+    -webkit-transition:all .4s ease;
+    -moz-transition:all .4s ease;
+    transition:all .4s ease;
+}
+
+.simple-menu li a:hover {
+    color: #3891bb;
+}
+
+.simple-menu li a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 1px;
+    height: 2px;
+    background: #88bdd6;
+    display: none;
+    -webkit-transition: width .4s ease;
+    -moz-transition: width .4s ease;
+    transition: width .4s ease;
+
+}
+
+.simple-menu li a:hover:after {
+    display: block;
+    width: 100%;
+    -webkit-transition: all .4s ease;
+    -moz-transition: all .4s ease;
+    transition: all .4s ease;
+}
+
+.simple-menu li a.linkactive{
+    color: #3891bb;
+}
+
+.simple-menu li a.linkactive::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 5px;
+    background: #88bdd6;
+    -webkit-transition:all .4s ease;
+    -moz-transition:all .4s ease;
+    transition:all .4s ease;
+}
+
+.simple-menu li a.linkactive::after {
+    display: block;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: transparent!important;
+    border-top: 2px solid #88bdd6;
+    border-bottom: 2px solid #88bdd6;
+}
+
+

@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+* @version		$Id: mod_back.xml 22 2011-07-22 22:45:28Z a.kikabidze $
+* @package		Modules
+* @copyright	Copyright (C) 2009 - 2011 WebSolutions LLC. All rights reserved.
+* @license		GNU General Public License version 2 or later
+-->
+<install type="module" version="1.5.0">
+    <name>Image</name>
+    <author>WebSolutions</author>
+    <creationDate>April 2011</creationDate>
+    <license>Comercial License</license>
+    <copyright>(C) WebSolutions. All rights reserved.</copyright>
+    <authorEmail>info@websolutions.ge</authorEmail>
+    <authorUrl>www.websolutions.ge</authorUrl>
+    <version>1.0.0</version>
+    <description>This module will display Image with link</description>
+    <files>
+        <filename module="mod_image">mod_image.php</filename>
+        <filename module="mod_image">index.html</filename>
+    </files>
+    <params addpath="/modules/mod_image/elements">
+        <param name="name0" type="text" size="43" default="" label="name" description="mod image name description" />
+        <param name="img0" type="image" default="" label="image" description="mod image description" />
+        <param name="link0" type="text" size="43" default="" label="link" description="mod image link description" />
+        <param name="target0" type="radio" default="0" label="new tab label" description="new tab desc">
+                <option value="0">selfwindow</option>
+                <option value="1">newwindow</option>
+        </param>
+        <param name="@spacer" type="spacer" default=""  label="" description="" />
+       
+        <param name="moreimg" type="moreimg" label="add more image" description="add more fields" /> 
+    </params>
+     <params group="selectimg1" addpath="/modules/mod_image/elements">
+          <param name="@spacer" type="spacer" default="" label="" description="" />
+            <param name="name1" type="text" size="43" default="" label="name" description="mod image name description" />
+            <param name="img1" type="image1" default="" label="image" description="mod image description" />
+            <param name="link1" type="text" size="43" default="" label="link" description="mod image link description" />
+            <param name="target1" type="radio" default="0" label="new tab label" description="new tab desc">
+                    <option value="0">selfwindow</option>
+                    <option value="1">newwindow</option>
+            </param>
+            <param name="@spacer" type="spacer" default="" label="" description="" />
+        </params>
+        <params group="selectimg2"> 
+            <param name="@spacer" type="spacer" default="" label="" description="" />
+            <param name="name2" type="text" size="43" default="" label="name" description="mod image name description" />
+            <param name="img2" type="image1" default="" label="image" description="mod image description" />
+            <param name="link2" type="text" size="43" default="" label="link" description="mod image link description" />
+            <param name="target2" type="radio" default="0" label="new tab label" description="new tab desc">
+                    <option value="0">selfwindow</option>
+                    <option value="1">newwindow</option>
+            </param>
+            <param name="@spacer" type="spacer" default="" label="" description="" />
+        </params>
+        <params group="selectimg3">
+            <param name="@spacer" type="spacer" default="" label="" description="" />
+            <param name="name3" type="text" size="43" default="" label="name" description="mod image name description" />
+            <param name="img3" type="image1" default="" label="image" description="mod image description" />
+            <param name="link3" type="text" size="43" default="" label="link" description="mod image link description" />
+            <param name="target3" type="radio" default="0" label="new tab label" description="new tab desc">
+                    <option value="0">selfwindow</option>
+                    <option value="1">newwindow</option>
+            </param>
+            <param name="@spacer" type="spacer" default="" label="" description="" />
+        </params>
+        <params group="selectimg4">
+            <param name="@spacer" type="spacer" default="" label="" description="" />
+            <param name="name4" type="text" size="43" default="" label="name" description="mod image name description" />
+            <param name="img4" type="image1" default="" label="image" description="mod image description" />
+            <param name="link4" type="text" size="43" default="" label="link" description="mod image link description" />
+            <param name="target4" type="radio" default="0" label="new tab label" description="new tab desc">
+                    <option value="0">selfwindow</option>
+                    <option value="1">newwindow</option>
+            </param>
+            <param name="@spacer" type="spacer" default="" label="" description="" />
+        </params>
+        <params group="selectimg5">
+            <param name="@spacer" type="spacer" default="" label="" description="" />
+            <param name="name5" type="text" size="43" default="" label="name" description="mod image name description" />
+            <param name="img5" type="image1" default="" label="image" description="mod image description" />
+            <param name="link5" type="text" size="43" default="" label="link" description="mod image link description" />
+            <param name="target5" type="radio" default="0" label="new tab label" description="new tab desc">
+                    <option value="0">selfwindow</option>
+                    <option value="1">newwindow</option>
+            </param>
+            <param name="@spacer" type="spacer" default="" label="" description="" />
+        </params>
+        <params group="selectimg6">
+            <param name="@spacer" type="spacer" default="" label="" description="" />
+            <param name="name6" type="text" size="43" default="" label="name" description="mod image name description" />
+            <param name="img6" type="image1" default="" label="image" description="mod image description" />
+            <param name="link6" type="text" size="43" default="" label="link" description="mod image link description" />
+            <param name="target6" type="radio" default="0" label="new tab label" description="new tab desc">
+                    <option value="0">selfwindow</option>
+                    <option value="1">newwindow</option>
+            </param>
+            <param name="@spacer" type="spacer" default="" label="" description="" />
+        </params>
+        <param group="selectimg7">
+            <param name="@spacer" type="spacer" default="" label="" description="" />
+            <param name="name7" type="text" size="43" default="" label="name" description="mod image name description" />
+            <param name="img7" type="image1" default="" label="image" description="mod image description" />
+            <param name="link7" type="text" size="43" default="" label="link" description="mod image link description" />
+            <param name="target7" type="radio" default="0" label="new tab label" description="new tab desc">
+                    <option value="0">selfwindow</option>
+                    <option value="1">newwindow</option>
+            </param>
+            <param name="@spacer" type="spacer" default="" label="" description="" />
+        </param>
+        <params group="selectimg8">
+            <param name="@spacer" type="spacer" default="" label="" description="" />
+            <param name="name8" type="text" size="43" default="" label="name" description="mod image name description" />
+            <param name="img8" type="image1" default="" label="image" description="mod image description" />
+            <param name="link8" type="text" size="43" default="" label="link" description="mod image link description" />
+            <param name="target8" type="radio" default="0" label="new tab label" description="new tab desc">
+                    <option value="0">selfwindow</option>
+                    <option value="1">newwindow</option>
+            </param>
+            <param name="@spacer" type="spacer" default="" label="" description="" />
+        </params>
+        <params group="selectimg9">
+            <param name="@spacer" type="spacer" default="" label="" description="" />
+            <param name="name9" type="text" size="43" default="" label="name" description="mod image name description" />
+            <param name="img9" type="image1" default="" label="image" description="mod image description" />
+            <param name="link9" type="text" size="43" default="" label="link" description="mod image link description" />
+            <param name="target9" type="radio" default="0" label="new tab label" description="new tab desc">
+                    <option value="0">selfwindow</option>
+                    <option value="1">newwindow</option>
+            </param>
+            <param name="@spacer" type="spacer" default="" label="" description="" />
+        </params>
+        <params group="selectimg10">
+            <param name="@spacer" type="spacer" default="" label="" description="" />
+            <param name="name10" type="text" size="43" default="" label="name" description="mod image name description" />
+            <param name="img10" type="image1" default="" label="image" description="mod image description" />
+            <param name="link10" type="text" size="43" default="" label="link" description="mod image link description" />
+            <param name="target10" type="radio" default="0" label="new tab label" description="new tab desc">
+                    <option value="0">selfwindow</option>
+                    <option value="1">newwindow</option>
+            </param>
+            <param name="@spacer" type="spacer" default="" label="" description="" />
+        </params>
+        <params group="selectimg11">
+            <param name="@spacer" type="spacer" default="" label="" description="" />
+            <param name="name11" type="text" size="43" default="" label="name" description="mod image name description" />
+            <param name="img11" type="image1" default="" label="image" description="mod image description" />
+            <param name="link11" type="text" size="43" default="" label="link" description="mod image link description" />
+            <param name="target11" type="radio" default="0" label="new tab label" description="new tab desc">
+                    <option value="0">selfwindow</option>
+                    <option value="1">newwindow</option>
+            </param>
+            <param name="@spacer" type="spacer" default="" label="" description="" />
+        </params>
+        <params group="selectimg12">
+            <param name="@spacer" type="spacer" default="" label="" description="" />
+            <param name="name12" type="text" size="43" default="" label="name" description="mod image name description" />
+            <param name="img12" type="image1" default="" label="image" description="mod image description" />
+            <param name="link12" type="text" size="43" default="" label="link" description="mod image link description" />
+            <param name="target12" type="radio" default="0" label="new tab label" description="new tab desc">
+                    <option value="0">selfwindow</option>
+                    <option value="1">newwindow</option>
+            </param>
+            <param name="@spacer" type="spacer" default="" label="" description="" />
+        </params>
+        <params group="selectimg13">
+            <param name="@spacer" type="spacer" default="" label="" description="" />
+            <param name="name13" type="text" size="43" default="" label="name" description="mod image name description" />
+            <param name="img13" type="image1" default="" label="image" description="mod image description" />
+            <param name="link13" type="text" size="43" default="" label="link" description="mod image link description" />
+            <param name="target13" type="radio" default="0" label="new tab label" description="new tab desc">
+                    <option value="0">selfwindow</option>
+                    <option value="1">newwindow</option>
+            </param>
+            <param name="@spacer" type="spacer" default="" label="" description="" />
+        </params>
+        <params group="selectimg14">
+            <param name="@spacer" type="spacer" default="" label="" description="" />
+            <param name="name14" type="text" size="43" default="" label="name" description="mod image name description" />
+            <param name="img14" type="image1" default="" label="image" description="mod image description" />
+            <param name="link14" type="text" size="43" default="" label="link" description="mod image link description" />
+            <param name="target14" type="radio" default="0" label="new tab label" description="new tab desc">
+                    <option value="0">selfwindow</option>
+                    <option value="1">newwindow</option>
+            </param>
+            <param name="@spacer" type="spacer" default="" label="" description="" />
+        </params>
+        <params group="selectimg15">
+            <param name="@spacer" type="spacer" default="" label="" description="" />
+            <param name="name15" type="text" size="43" default="" label="name" description="mod image name description" />
+            <param name="img15" type="image1" default="" label="image" description="mod image description" />
+            <param name="link15" type="text" size="43" default="" label="link" description="mod image link description" />
+            <param name="target15" type="radio" default="0" label="new tab label" description="new tab desc">
+                    <option value="0">selfwindow</option>
+                    <option value="1">newwindow</option>
+            </param>
+            <param name="@spacer" type="spacer" default="" label="" description="" />
+        </params>
+        <params group="selectimg16">
+            <param name="@spacer" type="spacer" default="" label="" description="" />
+            <param name="name16" type="text" size="43" default="" label="name" description="mod image name description" />
+            <param name="img16" type="image1" default="" label="image" description="mod image description" />
+            <param name="link16" type="text" size="43" default="" label="link" description="mod image link description" />
+            <param name="target16" type="radio" default="0" label="new tab label" description="new tab desc">
+                    <option value="0">selfwindow</option>
+                    <option value="1">newwindow</option>
+            </param>
+            <param name="@spacer" type="spacer" default="" label="" description="" />
+        </params>
+        <params group="selectimg17">
+            <param name="@spacer" type="spacer" default="" label="" description="" />
+            <param name="name17" type="text" size="43" default="" label="name" description="mod image name description" />
+            <param name="img17" type="image1" default="" label="image" description="mod image description" />
+            <param name="link17" type="text" size="43" default="" label="link" description="mod image link description" />
+            <param name="target17" type="radio" default="0" label="new tab label" description="new tab desc">
+                    <option value="0">selfwindow</option>
+                    <option value="1">newwindow</option>
+            </param>
+            <param name="@spacer" type="spacer" default="" label="" description="" />
+        </params>
+        <params group="selectimg18">
+            <param name="@spacer" type="spacer" default="" label="" description="" />
+            <param name="name18" type="text" size="43" default="" label="name" description="mod image name description" />
+            <param name="img18" type="image1" default="" label="image" description="mod image description" />
+            <param name="link18" type="text" size="43" default="" label="link" description="mod image link description" />
+            <param name="target18" type="radio" default="0" label="new tab label" description="new tab desc">
+                    <option value="0">selfwindow</option>
+                    <option value="1">newwindow</option>
+            </param>
+            <param name="@spacer" type="spacer" default="" label="" description="" />
+        </params>
+        <params group="selectimg19">
+            <param name="@spacer" type="spacer" default="" label="" description="" />
+            <param name="name19" type="text" size="43" default="" label="name" description="mod image name description" />
+            <param name="img19" type="image1" default="" label="image" description="mod image description" />
+            <param name="link19" type="text" size="43" default="" label="link" description="mod image link description" />
+            <param name="target19" type="radio" default="0" label="new tab label" description="new tab desc">
+                    <option value="0">selfwindow</option>
+                    <option value="1">newwindow</option>
+            </param>
+            <param name="@spacer" type="spacer" default="" label="" description="" />
+        </params>
+        <params group="selectimg20">
+            <param name="@spacer" type="spacer" default="" label="" description="" />
+            <param name="name20" type="text" size="43" default="" label="name" description="mod image name description" />
+            <param name="img20" type="image1" default="" label="image" description="mod image description" />
+            <param name="link20" type="text" size="43" default="" label="link" description="mod image link description" />
+            <param name="target20" type="radio" default="0" label="new tab label" description="new tab desc">
+                    <option value="0">selfwindow</option>
+                    <option value="1">newwindow</option>
+            </param>
+            <param name="@spacer" type="spacer" default="" label="" description="" />
+        </params>
+        <params group="selectimg21">
+            <param name="@spacer" type="spacer" default="" label="" description="" />
+            <param name="name21" type="text" size="43" default="" label="name" description="mod image name description" />
+            <param name="img21" type="image1" default="" label="image" description="mod image description" />
+            <param name="link21" type="text" size="43" default="" label="link" description="mod image link description" />
+            <param name="target21" type="radio" default="0" label="new tab label" description="new tab desc">
+                    <option value="0">selfwindow</option>
+                    <option value="1">newwindow</option>
+            </param>
+            <param name="@spacer" type="spacer" default="" label="" description="" />
+        </params>
+        <params group="selectimg22">
+            <param name="@spacer" type="spacer" default="" label="" description="" />
+            <param name="name22" type="text" size="43" default="" label="name" description="mod image name description" />
+            <param name="img22" type="image1" default="" label="image" description="mod image description" />
+            <param name="link22" type="text" size="43" default="" label="link" description="mod image link description" />
+            <param name="target22" type="radio" default="0" label="new tab label" description="new tab desc">
+                    <option value="0">selfwindow</option>
+                    <option value="1">newwindow</option>
+            </param>
+            <param name="@spacer" type="spacer" default="" label="" description="" />
+        </params>
+        <params group="selectimg23">
+            <param name="@spacer" type="spacer" default="" label="" description="" />
+            <param name="name23" type="text" size="43" default="" label="name" description="mod image name description" />
+            <param name="img23" type="image1" default="" label="image" description="mod image description" />
+            <param name="link23" type="text" size="43" default="" label="link" description="mod image link description" />
+            <param name="target23" type="radio" default="0" label="new tab label" description="new tab desc">
+                    <option value="0">selfwindow</option>
+                    <option value="1">newwindow</option>
+            </param>
+            <param name="@spacer" type="spacer" default="" label="" description="" />
+        </params>
+        <params group="selectimg24">
+            <param name="@spacer" type="spacer" default="" label="" description="" />
+            <param name="name24" type="text" size="43" default="" label="name" description="mod image name description" />
+            <param name="img24" type="image1" default="" label="image" description="mod image description" />
+            <param name="link24" type="text" size="43" default="" label="link" description="mod image link description" />
+            <param name="target24" type="radio" default="0" label="new tab label" description="new tab desc">
+                    <option value="0">selfwindow</option>
+                    <option value="1">newwindow</option>
+            </param>
+            <param name="@spacer" type="spacer" default="" label="" description="" />
+        </params>
+    <positions>
+        <position>fixed</position>
+        <position>right</position>
+        <position>map</position>
+        <position>center_top</position>
+        <position>center_bot</position>
+        <position>left</position>
+	<position>image</position>
+        <position>image1</position>
+    </positions>
+</install>

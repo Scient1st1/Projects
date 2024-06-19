@@ -1,0 +1,87 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 29, 2019, 12:50:39 PM
+    Author     : levani
+*/
+
+.simple-menu > li {
+    padding: 0!important;
+}
+
+.simple-menu li a {
+    font-family:rale-r;
+    font-size: 16px;
+    line-height: 72px;
+    display: block;
+    color: #000000;
+    background: #ffffff;
+    padding-left: 30px;
+    position: relative;
+    -webkit-transition:all .4s ease;
+    -moz-transition:all .4s ease;
+    transition:all .4s ease;
+}
+
+.simple-menu li a:hover {
+    color: #3891bb;
+}
+
+.simple-menu li a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 1px;
+    height: 2px;
+    background: #88bdd6;
+    display: none;
+    -webkit-transition: width .4s ease;
+    -moz-transition: width .4s ease;
+    transition: width .4s ease;
+
+}
+
+.simple-menu li a:hover:after {
+    display: block;
+    width: 100%;
+    -webkit-transition: all .4s ease;
+    -moz-transition: all .4s ease;
+    transition: all .4s ease;
+}
+
+.simple-menu li a.linkactive{
+    color: #3891bb;
+}
+
+.simple-menu li a.linkactive::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 5px;
+    background: #88bdd6;
+    -webkit-transition:all .4s ease;
+    -moz-transition:all .4s ease;
+    transition:all .4s ease;
+}
+
+.simple-menu li a.linkactive::after {
+    display: block;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: transparent!important;
+    border-top: 2px solid #88bdd6;
+    border-bottom: 2px solid #88bdd6;
+}
+
+

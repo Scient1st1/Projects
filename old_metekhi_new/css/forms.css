@@ -1,0 +1,45 @@
+/*old metekhi footer form*/
+
+.footer-mid .container .footer-form {
+    width: 50%;
+}
+.footer-form .module_title {
+    text-align: center;
+    color: #fff;
+}
+.footer-form .form-holder {
+    width: 100%;
+}
+.mod_form > button {
+    float: right;
+    color: #e0ca8f;
+    background: transparent;
+    border: none;
+   
+    
+}
+.mod_form_butt {
+    width: 100% !important;
+}
+.mod_form > button:hover {
+    color: #fff;
+}
+
+.footer-form .form-holder .module_block .module_body > div {
+    width: 100%;
+}
+
+.form_values .placeholder {
+    background: transparent;
+    border: 1px solid;
+    font-size: 12px;
+    
+}
+.form_values .placeholder:focus {
+    border-color: #f2dede;
+}
+.custom_fields_text {
+    margin-bottom: 20px;
+    cursor: auto;
+    
+}

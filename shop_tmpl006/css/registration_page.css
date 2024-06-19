@@ -1,0 +1,94 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/*
+    Created on : Nov 8, 2018, 5:38:11 PM
+    Author     : Berdia
+*/
+
+a.registration_btn {
+    border-radius: 23px;
+    background-color: #282828;
+    font-size: 16px;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'BPGNinoMtavruli';
+    letter-spacing: 0.5px;
+    border: none;
+    width: 200px;
+
+    padding: 14px 12px 8px;
+    text-align: center;
+    -webkit-transition: 0.25s ease-in-out;
+    transition: 0.25s ease-in-out;
+    display: inline-block;
+    line-height: 1;
+   
+}
+a.registration_btn:hover {
+     background: #d24529;
+}
+
+a.registration_btn.active {
+    background: #d24529;
+}
+
+.registration_rows .panel.panel-default label, .page_body_login .panel.panel-default label {
+    font-family: 'BPGNinoMtavruli';
+    margin-bottom: 5px;
+    color: #888;
+    font-size: 16px;
+}
+
+.form-control {
+    height: 50px;
+    border-radius: 0px;
+}
+
+.form-group {
+    margin-bottom: 25px;
+}
+
+.registration_rows input#xform_captcha {
+    margin: 10px 10px 0;
+}
+
+.registration_submit, .login_submit {
+    border-radius: 23px;
+    background-color: #000;
+    color: #fff;
+    font-family: 'BPGNinoMtavruli';
+    border: none;
+    font-size: 16px;
+    line-height: 1;
+    padding: 12px 22px 9px;
+    -webkit-transition: 0.25s ease-in-out;
+    transition: 0.25s ease-in-out;
+
+}
+
+.page_body_registration .registration_submit:hover, .login_submit:hover {
+    color: #fff;
+    opacity: .6;
+}
+
+
+/* Login Page */
+
+
+.login_btns a {
+    color: #888;
+    font-size: 14px;
+    -webkit-transition: 0.25s ease-in-out;
+    transition: 0.25s ease-in-out;
+    padding-bottom: 4px;
+    font-weight: 600;
+}
+
+.login_btns a:hover {
+    color: #d24529;
+    transition: .3s ease-in;
+   
+}

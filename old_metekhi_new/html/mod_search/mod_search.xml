@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="module" version="1.0.0">
+    <name>Search</name>
+    <author>Joomla! Project</author>
+    <creationDate>July 2004</creationDate>
+    <copyright>Copyright (C) 2005 - 2010 Open Source Matters. All rights reserved.</copyright>
+    <license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+    <authorEmail>admin@joomla.org</authorEmail>
+    <authorUrl>www.joomla.org</authorUrl>
+    <version>1.0.0</version>
+    <description>This module will display a search box</description>
+    <files>
+        <filename module="mod_search">mod_search.php</filename>
+    </files>
+    <params>
+      <param name="text" type="text" default="" label="Search Text" description="Search Text Desc" />
+       <param name="kbd" type="radio" default="1" label="geo kbd" description="geo kbd on off">
+      <option value="0">OFF</option>
+      <option value="1">on</option>
+    </param>
+    </params>
+   
+   <positions>
+        <position>search</position>
+		<position>right</position>
+    </positions>
+</install>

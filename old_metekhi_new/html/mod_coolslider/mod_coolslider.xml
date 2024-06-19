@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="module" version="1.5.0" method="upgrade">
+    <name>Cool Slider</name>
+    <copyright>Copyright (C) 2011 Web Solutions LTD. All Rights Reserved.</copyright>
+    <license>GNU/GPL http://www.gnu.org/copyleft/gpl.html</license>
+    <version>1.1</version>
+    <creationDate>02-09-2011</creationDate>
+    <author>Web Solutions LTD</author>
+    <authorEmail>info@GoodWeb LTD.ge</authorEmail>
+    <authorUrl>http://www.GoodWeb LTD.ge</authorUrl>
+    <description>Photo Slider.</description>
+    <files>
+        <folder>assets/</folder>
+        <folder>tmpl/</folder>
+        <filename>index.html</filename>
+        <filename>helper.php</filename>
+        <filename module="mod_coolslider">mod_coolslider.php</filename>
+    </files>
+    <params addpath="/modules/mod_coolslider/elements" >
+        <param name="link" type="link" default="" label="Slider Component" description="View Component" />
+        <param name="orderby" type="list" default="1" label="Order By" description="Order By description">
+            <option value="1">ORDERING ORDER</option>
+            <option value="2">ORDERING RANDOM</option>   
+        </param>
+        <param name="arrows" type="list" default="1" label="show arrows" description="show arrows desc">
+            <option value="1">yes</option>
+            <option value="0">no</option>   
+        </param>
+        <param name="slide_number" type="text" label="Slides Number" description="Slides Number description" default="3" />
+        <param name="group_id" type="slidergroup" default="0" label="Slider Group" description="Slider Group desc" />
+        <param name="show_cat" type="radio" default="0" label="Show category" description="show category desc" >
+            <option value="1">Yes</option>
+            <option value="0">No</option>
+        </param>
+        <param name="textanimate" type="radio" default="0" label="text animate" description="text animate effect" >
+            <option value="0">No Effect</option>
+            <option value="1">fromleft</option>
+            <option value="2">fromright</option>
+            <option value="3">frombottom</option>
+            <option value="4">fromtop</option>
+            
+        </param>
+		  <param name="width" type="text" label="Popup Width" description="slider popup width" />
+        <param name="height" type="text" label="Popup Height" description="slider popup height" />
+		 <param name="speed" type="text" label="slide speed" default="5000" description="slide speed desc" />
+    </params>
+    <positions>
+        <position>slider</position>        
+        <position>center_bot</position>        
+        <position>slider_all</position>
+        <position>slidermore</position>
+    </positions> 
+</install>

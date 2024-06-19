@@ -1,0 +1,73 @@
+
+#emailForm  .item_box_button {
+    float: left;
+}
+
+#emailForm .button {
+    border-radius: 2px;
+    background-color: #282828;
+    font-weight: normal;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'BPGNinoMtavruli';
+    line-height: 1.42;
+    border: none;
+    width: 110px;
+    height: 33px;
+    padding: 9px 10px 8px 10px;
+    text-align: center;
+    -webkit-transition: 0.25s ease-in-out;
+    transition: 0.1s ease-in-out;
+    text-transform: uppercase;
+    white-space: normal;
+    float: right;
+
+}
+
+#emailForm .button:hover {
+    background-color: #69af07;
+}
+
+
+.custom_fields_email {
+    width: 100%;
+    
+}
+
+.custom_fields_text, .custom_fields_list, .custom_fields_radio, 
+.custom_fields_email, .custom_fields_textarea, .custom_fields_checkbox, 
+.custom_fields_date {
+    border: none;
+}
+
+.mod_form_infos .placeholder {
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    font-size: 13px;
+    color: #555555;
+    line-height: 1.8;
+    padding: 12px;
+    position: relative;
+}
+    
+
+
+.custom_fields_email {
+    border: none;
+}
+
+
+.userparams_title {
+    display: none;
+}
+
+.mod_form_infos .form_values {
+    margin: 0 0 10px;
+}
+
+
+.mod_form_infos .form_values {
+    position: relative;
+}

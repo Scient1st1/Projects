@@ -1,0 +1,120 @@
+
+.footer_logo {
+    margin-bottom: 30px;
+}
+
+#footer a {
+    font-weight: normal;
+}
+
+.footer_socs .site_social > div {
+    font-size: 14px;
+    width: 28px;
+    height: 28px;
+    text-align: center;
+    border: 1px solid #fff;
+    color: red;
+    line-height: 26px;
+    border-radius: 50%;
+    border: 1px solid #000;
+    padding: 0;
+    margin: 0 2px;
+    -webkit-transition: background 300ms ease;
+    -moz-transition: background 300ms ease;
+    -o-transition: background 300ms ease;
+    transition: background 300ms ease;
+}
+
+.footer_socs .site_social > div:hover {
+    background: #d81416;
+    border: none;
+}
+
+
+.developed {
+    float: right;
+}
+
+.developed a {
+    font-family: 'BPGBannerCapsRegular';
+    -webkit-transition: all .25s ease-in-out;
+    -o-transition: all .25s ease-in-out;
+    transition: all .25s ease-in-out;
+}
+
+#footer {
+    margin-top: 50px;
+}
+
+.copyright {
+    float:left;
+    display: block;
+    line-height: 1.5;
+}
+
+.map_button {
+    margin-top: 167px;
+    margin-right: 40px;
+    display: inline-block;
+    float: right;
+}
+
+.footer_top {
+    padding: 20px 0; 
+}
+
+.footer_top .mod_forms_footer {
+    padding-right: 40px;
+}
+
+.footer_top .module_title {
+    text-align: left;
+    padding-bottom: 0px;
+}
+
+.footer_top .module_title h2 {
+    color: #000;
+    text-align: left;
+    font-size: 15px;
+    line-height: 1.5;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+
+.footer_top .contact_infos > div {
+    font-size: 13px;
+    color: #555555;
+    line-height: 1.8;
+}
+
+
+.footer_bot {
+    padding: 20px 0;
+    border-top: 1px solid rgba(0,0,0, .1);
+}
+
+/*footer-contact*/
+.mod_contact_footer .contact_infos > div{
+    color: #483b33;  
+}
+.mod_contact_footer .contact_infos > div span {
+    border-radius: 50%;
+    background-color: #000;
+}
+
+.mod_contact_footer .contact_telephone span i {
+    display: none;
+}
+
+
+/*footer socrs*/
+.footer_socs {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+
+
+
+

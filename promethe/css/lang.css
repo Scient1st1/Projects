@@ -1,0 +1,88 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 25, 2019, 3:10:38 PM
+    Author     : Levani
+*/
+
+/*lang-css*/
+.lang_switcher_block {
+    position: absolute;
+    right: 0;
+    /*top: calc(50% - 7px);*/
+    /*top: calc(50% + 3px);*/
+    top: auto;
+    z-index: 99999;
+
+}
+
+.lang_switcher_block a  {
+    height: 0px;
+    overflow: hidden;
+    width: auto;
+    display: block;
+    text-align: center;
+    color: #000000;
+    font-family:mon-b;
+    font-size: 15px;
+    line-height: 60px;
+
+
+}
+
+
+
+
+.lang_switcher_block a.activelang  {
+    height: 24px;
+    margin: 0;
+    line-height: 60px;
+    position: relative;
+    padding: 0 20px;
+}
+
+.lang_switcher_block a.activelang::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 2px;
+    height: 24px;
+    background: #000000;
+    display: block;
+    
+   
+}
+
+
+.clicked {
+    height: 34.3px!important;
+    overflow: visible!important;
+}
+
+
+
+.activelang.clicked span:before {
+    display: none;
+}
+
+
+
+.lang_switcher_block a img, .lang_switcher_block a span {
+    margin: 0;
+}
+
+.lang_switcher_block a span{
+    font-size: 12px;
+    display: block;
+    /*    line-height: 16px;*/
+}
+
+
+
+
+
+/*lang-css-end*/

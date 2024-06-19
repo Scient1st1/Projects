@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="module" version="1.5.0">
+    <name>Menu</name>
+    <author>Web Solutions LTD</author>
+    <creationDate>01.09.2010</creationDate>
+    <copyright>Web Solutions LTD</copyright>
+    <license>Commercial License</license>
+    <authorEmail>info@GoodWeb LTD.ge</authorEmail>
+    <authorUrl>www.GoodWeb LTD.ge</authorUrl>
+    <version>1.6</version>
+    <description>Displays a menu.</description>
+    <files>
+        <filename module="mod_mainmenu">mod_mainmenu.php</filename>
+    </files>
+      <positions>
+      <position>menu</position>
+      <position>left_menu</position>
+    </positions>
+</install>

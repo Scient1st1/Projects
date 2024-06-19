@@ -1,0 +1,265 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/*
+    Created on : Jul 17, 2017, 12:59:54 PM
+    Author     : Anri
+*/
+.menu-lang {
+    padding-right: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+
+
+.mainmenu > ul {
+    width: auto;
+}
+
+.mainmenu ul > li {
+    float: left;
+    width: auto;
+    position: relative;
+    /*    margin: 0 2px;*/
+}
+.mainmenu ul.menu > li > a {
+    display: block;
+    text-decoration: none;
+    padding: 11px 12px;
+    font-size: 15px;
+    position: relative;
+    font-family: mon-b;
+    color: #722d3a;
+    /*line-height: 60px;*/
+}
+
+.mainmenu ul.menu > li > a:hover {
+    color: #000000;
+}
+
+.mainmenu ul.menu  li:last-child a {
+    margin-right: -12px;
+}
+
+.mainmenu ul.menu > li .linkactive {
+    /*color: #000000;*/
+
+}
+
+.navbar {
+    min-height: auto;
+}
+
+
+/* ============ SUBS =========== */
+
+.wsd_havechildren:hover > ul {
+    display: block;
+}
+
+.wsd_subhavechildren:hover > ul {
+    display: block;
+}
+
+
+/*wsd-sub-2*/
+.wsd_sub2 {
+    padding: 10px 0!important;
+    background-color: #e6cb87;
+    z-index: 1002;
+    position: absolute;
+    left: 12px;
+    top: 36px;
+    color: #000000;
+    /*box-shadow: 3px 3px 20px rgba(0,0,0,.15);*/
+    display: none;
+
+}
+
+
+.wsd_sub2 > li {
+    margin-bottom: 20px;
+    
+}
+
+.wsd_sub2 > li:last-child {
+    margin-bottom: 0;
+}
+
+.wsd_sub2 > li > a {
+    font-size: 13px;
+    padding: 0 10px!important;
+    text-align: left;
+    display: block;
+    -webkit-transition: .4s ease;
+    -moz-transition: .4s ease;
+    -o-transition: .4s ease;
+    transition: .4s ease;
+    font-family: mon-b;
+    position: relative;
+    color: #722d3a;
+    line-height: 30px;
+    /*font-weight: bold;*/
+}
+
+.wsd_sub2 > li > a:hover {
+    color: #000000;
+}
+
+.wsd_sub2 > li > a.lastactive {
+    color: #722d3a;
+}
+
+.wsd_sub2 > li.wsd_subhavechildren::after {
+    content: '';
+    position: absolute;
+    top: 4px;
+    right: 20px;
+    width: 5px;
+    height: 8px;
+    background-image: url('==TEMPLATE==/images/rightmenu_arr.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+
+.wsd_sub2 > li.wsd_subhavechildren:hover:after {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
+    -webkit-transition: .4s ease;
+    -moz-transition: .4s ease;
+    -o-transition: .4s ease;
+
+
+
+}
+
+
+
+/*wsd-sub-2-end*/
+
+/*wsd-sub-3*/
+
+.wsd_sub3 {
+    position: static;
+    padding: 15px 0!important;
+    /*    display: block!important;*/
+
+}
+
+
+
+.wsd_sub3 > li {
+    z-index: 1002;
+    margin-bottom: 15px;
+}
+
+.wsd_sub3 > li:last-child {
+    margin-bottom: 0;
+}
+
+
+.wsd_sub3 > li > a {
+    font-size: 12px;
+    width: 100%;
+    text-align: left;
+    display: block;
+    -webkit-transition: .4s ease;
+    -moz-transition: .4s ease;
+    -o-transition: .4s ease;
+    transition: .4s ease;
+    font-family: mon-r;
+    position: relative;
+    padding: 0 30px 0 45px!important;
+    color: #000000;
+}
+
+.wsd_sub3 > li > a:hover {
+    color: #60c2d3;
+}
+
+
+.wsd_sub3 > li > a.lastactive {
+    color: #60c2d3;
+}
+
+/*wsd-sub-3-end*/
+
+
+/*both*/
+.wsd_subhavechildren {
+    position: relative;
+}
+
+
+
+
+
+
+
+
+
+
+/*both-end*/
+
+
+/*have-children-hovers-afters*/
+
+
+#wst24143:hover:after {
+    color: #ff084e!important;
+}
+/*have-children-hovers-afters-end*/
+
+
+
+/*chaotioc-settings :D*/
+
+.menu_fixed {
+    position: fixed;
+    z-index: 9999;
+    width: 100%;
+}
+
+
+.header_ini .menu_background .menu_container {
+    margin-top: 0;
+    transition: 0.4s;
+}
+
+
+
+.navbar-collapse {
+    box-shadow: none;
+}
+
+.wsd_havechildren > a {
+    position: relative;
+}
+
+.menu_holder {
+    display: block;
+    width: auto;
+    height: auto;
+    transition: 0.4s;
+    padding: 27px 13% 27px 0;
+}
+
+.menu-area {
+    display: flex;
+    justify-content: center;
+}
+
+.navbar-toggle .icon-bar {
+    background: #000!important;
+}
+
+.navbar-toggle.collapsed .icon-bar {
+    background: #000;
+}
