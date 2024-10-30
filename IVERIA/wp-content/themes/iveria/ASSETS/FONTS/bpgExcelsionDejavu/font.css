@@ -1,0 +1,20 @@
+@font-face {
+  font-family: 'BPGExcelsiorDejaVu2010';
+  src: url('BPGExcelsiorDejaVu2010.svg#BPGExcelsiorDejaVu2010') format('svg'),
+       url('BPGExcelsiorDejaVu2010.ttf') format('truetype'),
+       url('BPGExcelsiorDejaVu2010.woff') format('woff'),
+       url('bpg_excelsior_dejavu_2010.eot?#iefix') format('embedded-opentype'),
+       url('bpg_excelsior_dejavu_2010.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'bpg_excelsior_dejavu_2010';
+  src: url('bpg_excelsior_dejavu_2010.eot');
+  src: url('bpg_excelsior_dejavu_2010.eot?#iefix') format('embedded-opentype'),
+       url('bpg_excelsior_dejavu_2010.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
