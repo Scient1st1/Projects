@@ -1,11 +1,11 @@
-<h1 align="center">Hi 👋, I'm Levan</h1>
-<h3 align="center">A passionate developer</h3>
+<h1 align="center">Hi 👋, Here are Projects:</h1>
+
 
 - 🔭 Itvet Project 2021 **Iveria**
 
-- 🔭 Restaurant Site **Promethe**
-
 - 🔭 Renewable Energy site **GRPC**
+
+- 🔭 Restaurant Site **Promethe**
 
 - 🔭 Restaurant Site **Old_metekhi**
 
