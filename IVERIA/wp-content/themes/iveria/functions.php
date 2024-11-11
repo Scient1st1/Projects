@@ -60,12 +60,13 @@ add_action('widgets_init', 'add_sidebar');
 
 // add page title as body class
 
-function my_body_class($classes) {
+function my_body_class($classes)
+{
 
-    if(is_page()){
-      global $page;
-      $title = get_the_title(  $page );
-      $classes[] = $title;
+    if (is_page()) {
+        global $page;
+        $title = get_the_title($page);
+        $classes[] = $title;
     }
     return $classes;
 }
@@ -79,38 +80,40 @@ add_filter('body_class', 'my_body_class');
 //////////////////////////// custom search form 
 
 // for front page 
-function wpdocs_my_search_form( $form ) {
+function wpdocs_my_search_form($form)
+{
     $form = '
-    <form role="search" method="get" id="searchform" class="search-form d-flex align-items-center position-relative" action="#' . home_url( '/' ) . '" >
-    <input type="text" value="' . get_search_query() . '" name="s" id="s" placeholder="საძიებო სიტყვა" class="text-uppercase search-inp w-100 bg-transparent"/>
+    <form role="search" method="get" id="searchform" class="search-form d-flex align-items-center position-relative" action="' . home_url('/') . '" >
+    <input type="search" value="' . get_search_query() . '" name="s" id="s" placeholder="საძიებო სიტყვა" class="text-uppercase search-inp w-100 bg-transparent"/>
     <label for="searchsubmit"><i class="fas fa-search"></i></label>
-    <input hidden type="submit" id="searchsubmit" value="'. esc_attr__( 'Search' ) .'" />
+    <input hidden type="submit" id="searchsubmit" value="' . esc_attr__('Search') . '" />
     </form>';
- 
+
     return $form;
 }
-add_filter( 'get_search_form', 'wpdocs_my_search_form' );
+add_filter('get_search_form', 'wpdocs_my_search_form');
 
 
 // active class 
 
-add_filter('nav_menu_css_class' , 'special_nav_class' , 10 , 2);
+add_filter('nav_menu_css_class', 'special_nav_class', 10, 2);
 
-function special_nav_class ($classes, $item) {
-  if (in_array('current-menu-item', $classes) ){
-    $classes[] = 'active ';
-  }
-  return $classes;
+function special_nav_class($classes, $item)
+{
+    if (in_array('current-menu-item', $classes)) {
+        $classes[] = 'active ';
+    }
+
+    return $classes;
 }
 
 
 
+// search page adjust - ძიების რესულტატების გვერდი
+function page_ajust_query($query){
+    if (!is_admin() and $query->is_search() and $query->is_main_query()) {
+        $query->set('posts_per_page', -1);
+    }
+}
 
-
-
-
-
-
-
-
-
+add_action('pre_get_posts', 'page_ajust_query');

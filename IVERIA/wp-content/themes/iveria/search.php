@@ -42,8 +42,8 @@
                             <p class="search_error_message">მსგავსი რეზულტატი არ მოიძებნა, სცადეთ სხვა სიტყვა</p>
                             <?php
                             $form = '
-                                <form role="search" method="get" id="searchform" class="mt-4 position-relative" action="#' . home_url('/') . '" >
-                                <input type="text" value="' . get_search_query() . '" name="s" id="s" placeholder="ძიება" class="form-control one_more_search_inp"/>
+                                <form role="search" method="get" id="searchform" class="mt-4 position-relative" action="' . home_url('/') . '" >
+                                <input type="search" value="' . get_search_query() . '" name="s" id="s" placeholder="ძიება" class="form-control one_more_search_inp"/>
                                 <label for="pageSearchsubmit" class="position-absolute search-ico"><i class="fas fa-search"></i></label>
                                 <input hidden type="submit" id="pageSearchsubmit" value="' . esc_attr__('Search') . '" />
                                 </form>';

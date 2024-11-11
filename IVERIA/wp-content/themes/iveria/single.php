@@ -45,6 +45,7 @@
 
                     <?php
                     $minImg =  get_post_custom();
+            
                     if(isset($minImg['min-image']) && !empty($minImg['min-image'])){
                         $minImgsArray = $minImg['min-image'];
                     }

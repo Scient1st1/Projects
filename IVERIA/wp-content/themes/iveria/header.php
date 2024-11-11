@@ -40,7 +40,7 @@
                             <i class="fas fa-search"></i>
                             <div class="d-flex flex-column  justify-content-center align-items-center position-fixed search-wrapper">
                                 <span><i class="fas fa-times position-absolute"></i></span>
-                                <form action="#" method="get" class="search-form d-flex align-items-center position-relative">
+                                <form action="<?php echo home_url('/');?>" method="get" class="search-form d-flex align-items-center position-relative">
                                     <?php get_search_form()  ?>
                                 </form>
                             </div>

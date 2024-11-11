@@ -32,7 +32,7 @@
             <div class="container">
                 <div class="row d-flex justify-content-center py-2">
                     <div class="col-12 d-flex justify-content-sm-between flex-sm-row flex-column align-items-center flex-wrap p-0 p-sm-3 ">
-                        
+
                         <?php
                         $paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
                         $productsArgs = array(
@@ -80,7 +80,7 @@
                                         </p>
                                     </div>
                                 </div>
-                                
+
                             <?php endwhile; ?>
                             <?php wp_reset_postdata(); ?>
                             <!-- end of the loop -->
@@ -119,7 +119,7 @@
                             <p><?php _e('Sorry, no posts matched your criteria.'); ?></p>
                         <?php endif; ?>
 
-                      
+
                     </div>
                 </div>
             </div>
